@@ -1,10 +1,11 @@
 import { useRouter } from "expo-router";
 import { useState } from "react";
-import { Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
 import AppButton from "@/components/ui/AppButton";
 import Screen from "@/components/ui/Screen";
 import { COLORS } from "@/constants/colors";
+import { useGameStore } from "@/store/gameStore";
 
 const MIN_PLAYERS = 3;
 const MAX_PLAYERS = 12;
@@ -15,21 +16,18 @@ type PlayerInput = {
 };
 
 export default function GameSetupScreen() {
-  console.log();
-
   const router = useRouter();
 
+  const setGamePlayers = useGameStore((state) => state.setPlayers);
   const [players, setPlayers] = useState<PlayerInput[]>([
     { id: 1, name: "" },
     { id: 2, name: "" },
     { id: 3, name: "" },
   ]);
-
   const [nextPlayerId, setNextPlayerId] = useState(4);
   const normalizedNames = players.map((player) => player.name.trim().toLowerCase());
   const hasEmptyNames = players.some((player) => player.name.trim().length === 0);
   const hasDuplicateNames = new Set(normalizedNames).size !== normalizedNames.length;
-
   const isValid = players.length >= MIN_PLAYERS && players.length <= MAX_PLAYERS && !hasEmptyNames && !hasDuplicateNames;
 
   const updatePlayerName = (id: number, name: string) => {
@@ -56,8 +54,10 @@ export default function GameSetupScreen() {
     if (!isValid) {
       return;
     }
+    const gamePlayers = players.map((player) => ({ id: player.id, name: player.name.trim() }));
+    setGamePlayers(gamePlayers);
 
-    Alert.alert("Setup Complete!", `Players: \n${normalizedNames.join("\n")}`);
+    router.push("/game/settings");
   };
 
   return (
@@ -104,7 +104,7 @@ export default function GameSetupScreen() {
                 </Pressable>
               )}
 
-              {true && <Text style={styles.hiddenValidationText}>Duplicate name</Text>}
+              {nameIsDuplicate && <Text style={styles.hiddenValidationText}>Duplicate name</Text>}
             </View>
           );
         })}
@@ -124,8 +124,8 @@ export default function GameSetupScreen() {
           <Text style={styles.addButtonHint}>{players.length >= MAX_PLAYERS ? "Player limit reached" : ""}</Text>
         </Pressable>
 
-        {hasEmptyNames && <Text style={styles.validationText}>Fill in every player name to continue.</Text>}
-        {hasDuplicateNames && <Text style={styles.validationText}>No duplicate names allowed.</Text>}
+        {(hasEmptyNames && <Text style={styles.validationText}>Fill in every player name to continue.</Text>) ||
+          (hasDuplicateNames && <Text style={styles.validationText}>No duplicate names allowed.</Text>)}
       </ScrollView>
 
       <View style={styles.footer}>

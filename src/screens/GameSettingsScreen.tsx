@@ -7,12 +7,14 @@ import Screen from "@/components/ui/Screen";
 import { COLORS } from "@/constants/colors";
 import { useGameStore } from "@/store/gameStore";
 import type { Difficulty, GameCategory, GameMode, HintMode } from "@/types/game";
+import { initializeGame } from "@/utils/game";
 
 export default function GameSettingsScreen() {
   const router = useRouter();
 
   const players = useGameStore((state) => state.players);
   const setSettings = useGameStore((state) => state.setSettings);
+  const setRound = useGameStore((state) => state.setRound);
 
   const [mode, setMode] = useState<GameMode>("classic");
   const [impostorCount, setImpostorCount] = useState<number>(1);
@@ -43,21 +45,20 @@ export default function GameSettingsScreen() {
   };
 
   const handleContinue = () => {
-    setSettings({
+    const settings = {
       mode,
       impostorCount,
       category,
       hintMode,
       difficulty,
-    });
+    };
+    setSettings(settings);
 
-    console.log({
-      mode,
-      impostorCount,
-      category,
-      hintMode,
-      difficulty,
-    });
+    const round = initializeGame(players, settings);
+    setRound(round);
+
+    router.push("/game/reveal");
+    console.log(JSON.stringify(round, null, 2));
   };
 
   return (

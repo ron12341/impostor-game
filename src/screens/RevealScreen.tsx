@@ -1,6 +1,6 @@
 import { useRouter } from "expo-router";
 import { useState } from "react";
-import { Alert, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 import { COLORS } from "@/constants/colors";
 import { useGameStore } from "@/store/gameStore";
@@ -21,10 +21,8 @@ export default function RevealScreen() {
 
   const handleNext = () => {
     if (isLastPlayer) {
-      // router.push("/game/discussion");
-      console.log("Will move on to the discussion page");
-
-      Alert.alert("Reveal complete", "The discussion screen is coming soon");
+      console.log("Moving to the discussion page");
+      router.push("/game/discussion");
       return;
     }
 

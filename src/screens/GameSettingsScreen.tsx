@@ -58,7 +58,6 @@ export default function GameSettingsScreen() {
     setRound(round);
 
     router.push("/game/reveal");
-    console.log(JSON.stringify(round, null, 2));
   };
 
   return (

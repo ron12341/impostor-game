@@ -1,6 +1,5 @@
 import { useRouter } from "expo-router";
-import { useState } from "react";
-import { Alert, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 import AppButton from "@/components/ui/AppButton";
 import Screen from "@/components/ui/Screen";
@@ -9,26 +8,12 @@ import { useGameStore } from "@/store/gameStore";
 
 export default function DiscussionScreen() {
   const router = useRouter();
-
   const round = useGameStore((state) => state.round);
-  const [currentSpeakerIndex, setCurrentSpeakerIndex] = useState(0);
-
-  const totalPlayers = round?.players.length ?? 0;
-  const currentSpeaker = round?.players[currentSpeakerIndex];
-  const isLastSpeaker = currentSpeakerIndex === totalPlayers - 1;
-
   const handleNext = () => {
-    if (isLastSpeaker) {
-      Alert.alert("Moving to the Voting Page", "Voting Page will be implemented soon");
-      console.log("Moving on to the voting page");
-      //   router.push('/game/voting');
-      return;
-    }
-
-    setCurrentSpeakerIndex((index) => index + 1);
+    router.push("/game/results");
   };
 
-  if (!round || !currentSpeaker) {
+  if (!round) {
     return (
       <Screen style={styles.centered}>
         <Text style={styles.title}>NO ACTIVE GAME</Text>
@@ -61,12 +46,12 @@ export default function DiscussionScreen() {
 
           <Text style={styles.discussionTitle}>Discuss among yourselves</Text>
 
-          <Text style={styles.discussionDescription}>Take your time. When everyone is ready, move on to voting.</Text>
+          <Text style={styles.discussionDescription}>Take your time. When everyone is ready, find out the truth.</Text>
         </View>
       </View>
 
       <View style={styles.footer}>
-        <AppButton title="START VOTING" onPress={handleNext} />
+        <AppButton title="SHOW RESULT" onPress={handleNext} />
 
         <Text style={styles.footerNote}>MAKE YOUR CASE. TRUST YOUR INSTINCTS.</Text>
       </View>
@@ -96,12 +81,6 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     letterSpacing: 1.5,
   },
-  // progress: {
-  //   color: COLORS.textMuted,
-  //   fontSize: 11,
-  //   fontWeight: "700",
-  //   letterSpacing: 1,
-  // },
   main: {
     flex: 1,
     justifyContent: "center",

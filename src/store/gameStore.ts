@@ -12,6 +12,7 @@ type GameStore = {
   setPlayers: (players: Player[]) => void;
   setSettings: (settings: GameSettings) => void;
   setRound: (round: GameRound) => void;
+  resetRound: () => void;
   resetGame: () => void;
 };
 
@@ -27,5 +28,9 @@ export const useGameStore = create<GameStore>((set) => ({
   setPlayers: (players) => set({ players }),
   setSettings: (settings) => set({ settings }),
   setRound: (round) => set({ round }),
+  resetRound: () =>
+    set({
+      round: null,
+    }),
   resetGame: () => set(initialState),
 }));

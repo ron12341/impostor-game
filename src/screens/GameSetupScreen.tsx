@@ -17,13 +17,23 @@ type PlayerInput = {
 
 export default function GameSetupScreen() {
   const router = useRouter();
+  const savedPlayers = useGameStore((state) => state.players);
 
   const setGamePlayers = useGameStore((state) => state.setPlayers);
-  const [players, setPlayers] = useState<PlayerInput[]>([
-    { id: 1, name: "" },
-    { id: 2, name: "" },
-    { id: 3, name: "" },
-  ]);
+  const [players, setPlayers] = useState<PlayerInput[]>(() => {
+    if (savedPlayers.length > 0) {
+      return savedPlayers.map((player) => ({
+        id: player.id,
+        name: player.name,
+      }));
+    }
+
+    return [
+      { id: 1, name: "" },
+      { id: 2, name: "" },
+      { id: 3, name: "" },
+    ];
+  });
   const [nextPlayerId, setNextPlayerId] = useState(4);
   const normalizedNames = players.map((player) => player.name.trim().toLowerCase());
   const hasEmptyNames = players.some((player) => player.name.trim().length === 0);

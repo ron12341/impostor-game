@@ -11,20 +11,21 @@ import { initializeGame } from "@/utils/game";
 
 export default function GameSettingsScreen() {
   const router = useRouter();
+  const savedSettings = useGameStore((state) => state.settings);
 
   const players = useGameStore((state) => state.players);
   const setSettings = useGameStore((state) => state.setSettings);
   const setRound = useGameStore((state) => state.setRound);
 
-  const [mode, setMode] = useState<GameMode>("classic");
-  const [impostorCount, setImpostorCount] = useState<number>(1);
-  const [category, setCategory] = useState<GameCategory>("all");
-  const [hintMode, setHintMode] = useState<HintMode>("none");
-  const [difficulty, setDifficulty] = useState<Difficulty>("easy");
-
   const maxImpostorCount = useMemo(() => {
     return Math.floor((players.length - 1) / 2);
   }, [players.length]);
+
+  const [mode, setMode] = useState<GameMode>(() => savedSettings?.mode ?? "classic");
+  const [impostorCount, setImpostorCount] = useState<number>(() => Math.min(savedSettings?.impostorCount ?? 1, maxImpostorCount));
+  const [category, setCategory] = useState<GameCategory>(() => savedSettings?.category ?? "all");
+  const [hintMode, setHintMode] = useState<HintMode>(() => savedSettings?.hintMode ?? "none");
+  const [difficulty, setDifficulty] = useState<Difficulty>(() => savedSettings?.difficulty ?? "easy");
 
   const categories: { label: string; value: GameCategory }[] = [
     { label: "All", value: "all" },

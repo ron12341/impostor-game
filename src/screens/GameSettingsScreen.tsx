@@ -35,6 +35,10 @@ export default function GameSettingsScreen() {
     { label: "Animals", value: "animals" },
     { label: "Objects", value: "objects" },
     { label: "Technology", value: "technology" },
+    { label: "Fantasy", value: "fantasy" },
+    { label: "Movies & TV", value: "moviesAndTV" },
+    { label: "Sports", value: "sports" },
+    { label: "Video Games", value: "videoGames" },
   ];
 
   const handleIncreaseImpostorCount = () => {

@@ -5,7 +5,7 @@ export type Player = {
 
 export type GameMode = "classic" | "chaos";
 
-export type GameCategory = "all" | "places" | "food" | "people" | "animals" | "objects" | "technology";
+export type GameCategory = "all" | "places" | "food" | "people" | "animals" | "objects" | "technology" | "fantasy" | "moviesAndTV" | "sports" | "videoGames";
 
 export type HintMode = "none" | "related";
 

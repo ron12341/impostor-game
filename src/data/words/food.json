@@ -1,248 +1,158 @@
 {
   "easy": [
-    {
-      "word": "Pizza",
-      "hint": "Cheese"
-    },
-    {
-      "word": "Hamburger",
-      "hint": "Bun"
-    },
-    {
-      "word": "Pancakes",
-      "hint": "Syrup"
-    },
-    {
-      "word": "Apple",
-      "hint": "Core"
-    },
-    {
-      "word": "Ice cream",
-      "hint": "Cone"
-    },
-    {
-      "word": "French fries",
-      "hint": "Ketchup"
-    },
-    {
-      "word": "Sandwich",
-      "hint": "Filling"
-    },
-    {
-      "word": "Popcorn",
-      "hint": "Movie"
-    },
-    {
-      "word": "Chocolate",
-      "hint": "Cocoa"
-    },
-    {
-      "word": "Taco",
-      "hint": "Tortilla"
-    },
-    {
-      "word": "Spaghetti",
-      "hint": "Noodles"
-    },
-    {
-      "word": "Cookie",
-      "hint": "Chocolate chips"
-    },
-    {
-      "word": "Donut",
-      "hint": "Sprinkles"
-    },
-    {
-      "word": "Salad",
-      "hint": "Lettuce"
-    },
-    {
-      "word": "Hot dog",
-      "hint": "Mustard"
-    },
-    {
-      "word": "Toast",
-      "hint": "Butter"
-    },
-    {
-      "word": "Watermelon",
-      "hint": "Seeds"
-    },
-    {
-      "word": "Cupcake",
-      "hint": "Frosting"
-    },
-    {
-      "word": "Soup",
-      "hint": "Spoon"
-    },
-    {
-      "word": "Omelet",
-      "hint": "Eggs"
-    }
+    { "word": "Pizza", "hint": "Pepperoni" },
+    { "word": "Hamburger", "hint": "Sesame seeds" },
+    { "word": "French Fries", "hint": "Ketchup" },
+    { "word": "Hot Dog", "hint": "Mustard" },
+    { "word": "Fried Chicken", "hint": "Crispy coating" },
+    { "word": "Spaghetti", "hint": "Meatballs" },
+    { "word": "Tacos", "hint": "Tortilla" },
+    { "word": "Sushi", "hint": "Soy sauce" },
+    { "word": "Sandwich", "hint": "Lunchbox" },
+    { "word": "Pancakes", "hint": "Maple syrup" },
+    { "word": "Ice Cream", "hint": "Cone" },
+    { "word": "Chocolate", "hint": "Cocoa" },
+    { "word": "Donut", "hint": "Sprinkles" },
+    { "word": "Cake", "hint": "Candles" },
+    { "word": "Cookies", "hint": "Chocolate chips" },
+    { "word": "Popcorn", "hint": "Movie theater" },
+    { "word": "Potato Chips", "hint": "Crunchy" },
+    { "word": "Candy", "hint": "Sweet tooth" },
+    { "word": "Apple", "hint": "Core" },
+    { "word": "Banana", "hint": "Peel" },
+    { "word": "Orange", "hint": "Citrus" },
+    { "word": "Watermelon", "hint": "Seeds" },
+    { "word": "Strawberry", "hint": "Red berries" },
+    { "word": "Grapes", "hint": "Vine" },
+    { "word": "Mango", "hint": "Tropical" },
+    { "word": "Carrot", "hint": "Rabbits" },
+    { "word": "Broccoli", "hint": "Florets" },
+    { "word": "Potato", "hint": "Mashed" },
+    { "word": "Tomato", "hint": "Ketchup" },
+    { "word": "Corn", "hint": "Cob" },
+    { "word": "Bread", "hint": "Toaster" },
+    { "word": "Bagel", "hint": "Cream cheese" },
+    { "word": "Croissant", "hint": "Flaky" },
+    { "word": "Toast", "hint": "Butter" },
+    { "word": "Pasta", "hint": "Noodles" },
+    { "word": "Rice", "hint": "Grains" },
+    { "word": "Fried Rice", "hint": "Wok" },
+    { "word": "Soup", "hint": "Broth" },
+    { "word": "Salad", "hint": "Dressing" },
+    { "word": "Steak", "hint": "Grill marks" },
+    { "word": "Eggs", "hint": "Yolk" },
+    { "word": "Cheese", "hint": "Dairy" },
+    { "word": "Yogurt", "hint": "Cultures" },
+    { "word": "Milk", "hint": "Calcium" },
+    { "word": "Coffee", "hint": "Caffeine" },
+    { "word": "Tea", "hint": "Teabag" },
+    { "word": "Orange Juice", "hint": "Breakfast" },
+    { "word": "Lemonade", "hint": "Sour" },
+    { "word": "Smoothie", "hint": "Blender" },
+    { "word": "Soda", "hint": "Fizz" }
   ],
   "medium": [
-    {
-      "word": "Sushi",
-      "hint": "Chopsticks"
-    },
-    {
-      "word": "Lasagna",
-      "hint": "Layers"
-    },
-    {
-      "word": "Dumplings",
-      "hint": "Filling"
-    },
-    {
-      "word": "Risotto",
-      "hint": "Stirring"
-    },
-    {
-      "word": "Falafel",
-      "hint": "Chickpeas"
-    },
-    {
-      "word": "Gnocchi",
-      "hint": "Potato"
-    },
-    {
-      "word": "Paella",
-      "hint": "Saffron"
-    },
-    {
-      "word": "Kimchi",
-      "hint": "Fermentation"
-    },
-    {
-      "word": "Couscous",
-      "hint": "Semolina"
-    },
-    {
-      "word": "Shakshuka",
-      "hint": "Poached eggs"
-    },
-    {
-      "word": "Poutine",
-      "hint": "Gravy"
-    },
-    {
-      "word": "Burrito",
-      "hint": "Wrapped"
-    },
-    {
-      "word": "Empanada",
-      "hint": "Pastry"
-    },
-    {
-      "word": "Miso soup",
-      "hint": "Seaweed"
-    },
-    {
-      "word": "Ramen",
-      "hint": "Broth"
-    },
-    {
-      "word": "Tiramisu",
-      "hint": "Coffee"
-    },
-    {
-      "word": "Baklava",
-      "hint": "Phyllo"
-    },
-    {
-      "word": "Gazpacho",
-      "hint": "Chilled"
-    },
-    {
-      "word": "Pierogi",
-      "hint": "Sour cream"
-    },
-    {
-      "word": "Bibimbap",
-      "hint": "Mixed bowl"
-    }
+    { "word": "Lasagna", "hint": "Layers" },
+    { "word": "Ramen", "hint": "Noodle broth" },
+    { "word": "Burrito", "hint": "Wrapped tortilla" },
+    { "word": "Quesadilla", "hint": "Melted cheese" },
+    { "word": "Pad Thai", "hint": "Tamarind" },
+    { "word": "Pho", "hint": "Star anise" },
+    { "word": "Dumplings", "hint": "Filling" },
+    { "word": "Spring Rolls", "hint": "Dipping sauce" },
+    { "word": "Curry", "hint": "Spices" },
+    { "word": "Butter Chicken", "hint": "Creamy sauce" },
+    { "word": "Biryani", "hint": "Fragrant rice" },
+    { "word": "Poutine", "hint": "Cheese curds" },
+    { "word": "Shepherd's Pie", "hint": "Mashed potatoes" },
+    { "word": "Fish and Chips", "hint": "Malt vinegar" },
+    { "word": "Paella", "hint": "Saffron" },
+    { "word": "Risotto", "hint": "Arborio rice" },
+    { "word": "Gnocchi", "hint": "Potato dough" },
+    { "word": "Falafel", "hint": "Chickpeas" },
+    { "word": "Hummus", "hint": "Tahini" },
+    { "word": "Shawarma", "hint": "Rotisserie" },
+    { "word": "Empanada", "hint": "Pastry pocket" },
+    { "word": "Pierogi", "hint": "Sour cream" },
+    { "word": "Kimchi", "hint": "Fermentation" },
+    { "word": "Bibimbap", "hint": "Mixed rice" },
+    { "word": "Takoyaki", "hint": "Octopus" },
+    { "word": "Mochi", "hint": "Chewy rice" },
+    { "word": "Tiramisu", "hint": "Espresso" },
+    { "word": "Cheesecake", "hint": "Cream cheese" },
+    { "word": "Crème Brûlée", "hint": "Caramelized sugar" },
+    { "word": "Macarons", "hint": "Almond flour" },
+    { "word": "Churros", "hint": "Cinnamon sugar" },
+    { "word": "Waffles", "hint": "Grid pattern" },
+    { "word": "French Toast", "hint": "Egg mixture" },
+    { "word": "Pretzel", "hint": "Twisted shape" },
+    { "word": "Sourdough", "hint": "Starter culture" },
+    { "word": "Pita Bread", "hint": "Pocket" },
+    { "word": "Focaccia", "hint": "Olive oil" },
+    { "word": "Rye Bread", "hint": "Caraway" },
+    { "word": "Pumpernickel", "hint": "Dark loaf" },
+    { "word": "Avocado", "hint": "Guacamole" },
+    { "word": "Eggplant", "hint": "Purple skin" },
+    { "word": "Zucchini", "hint": "Courgette" },
+    { "word": "Cauliflower", "hint": "White florets" },
+    { "word": "Asparagus", "hint": "Spears" },
+    { "word": "Artichoke", "hint": "Thistle" },
+    { "word": "Pomegranate", "hint": "Ruby seeds" },
+    { "word": "Dragon Fruit", "hint": "Pink scales" },
+    { "word": "Kiwi", "hint": "Fuzzy skin" },
+    { "word": "Coconut Water", "hint": "Tropical hydration" },
+    { "word": "Milkshake", "hint": "Whipped cream" }
   ],
   "hard": [
-    {
-      "word": "Ratatouille",
-      "hint": "Vegetables"
-    },
-    {
-      "word": "Beef Wellington",
-      "hint": "Pastry"
-    },
-    {
-      "word": "Crème brûlée",
-      "hint": "Caramelized"
-    },
-    {
-      "word": "Bouillabaisse",
-      "hint": "Seafood stew"
-    },
-    {
-      "word": "Cassoulet",
-      "hint": "White beans"
-    },
-    {
-      "word": "Chateaubriand",
-      "hint": "Tenderloin"
-    },
-    {
-      "word": "Ceviche",
-      "hint": "Citrus"
-    },
-    {
-      "word": "Doro wat",
-      "hint": "Berbere"
-    },
-    {
-      "word": "Fesenjan",
-      "hint": "Pomegranate"
-    },
-    {
-      "word": "Kaiseki",
-      "hint": "Seasonal courses"
-    },
-    {
-      "word": "Laksa",
-      "hint": "Coconut broth"
-    },
-    {
-      "word": "Mole poblano",
-      "hint": "Chocolate sauce"
-    },
-    {
-      "word": "Ossobuco",
-      "hint": "Marrowbone"
-    },
-    {
-      "word": "Pavlova",
-      "hint": "Meringue"
-    },
-    {
-      "word": "Pithivier",
-      "hint": "Enclosed pastry"
-    },
-    {
-      "word": "Sauerbraten",
-      "hint": "Marinade"
-    },
-    {
-      "word": "Spanakopita",
-      "hint": "Spinach pastry"
-    },
-    {
-      "word": "Tagine",
-      "hint": "Conical pot"
-    },
-    {
-      "word": "Tteokbokki",
-      "hint": "Rice cakes"
-    },
-    {
-      "word": "Zabaglione",
-      "hint": "Whipped yolks"
-    }
+    { "word": "Okonomiyaki", "hint": "Savory pancake" },
+    { "word": "Katsu Curry", "hint": "Breaded cutlet" },
+    { "word": "Chawanmushi", "hint": "Steamed custard" },
+    { "word": "Onigiri", "hint": "Rice triangle" },
+    { "word": "Natto", "hint": "Sticky soybeans" },
+    { "word": "Laksa", "hint": "Coconut broth" },
+    { "word": "Nasi Lemak", "hint": "Pandan rice" },
+    { "word": "Rendang", "hint": "Slow-cooked spices" },
+    { "word": "Adobo", "hint": "Vinegar marinade" },
+    { "word": "Sisig", "hint": "Sizzling plate" },
+    { "word": "Jollof Rice", "hint": "Tomato rice" },
+    { "word": "Injera", "hint": "Sour flatbread" },
+    { "word": "Tagine", "hint": "Conical pot" },
+    { "word": "Shakshuka", "hint": "Poached eggs" },
+    { "word": "Moussaka", "hint": "Layered eggplant" },
+    { "word": "Ceviche", "hint": "Citrus marinade" },
+    { "word": "Arepa", "hint": "Cornmeal" },
+    { "word": "Feijoada", "hint": "Black beans" },
+    { "word": "Pupusa", "hint": "Stuffed masa" },
+    { "word": "Bánh Xèo", "hint": "Crispy turmeric" },
+    { "word": "Peking Duck", "hint": "Crispy skin" },
+    { "word": "Xiaolongbao", "hint": "Soup dumpling" },
+    { "word": "Mapo Tofu", "hint": "Sichuan pepper" },
+    { "word": "Hainanese Chicken Rice", "hint": "Ginger sauce" },
+    { "word": "Bulgogi", "hint": "Marinated beef" },
+    { "word": "Galbi", "hint": "Short ribs" },
+    { "word": "Doro Wat", "hint": "Berbere spice" },
+    { "word": "Bunny Chow", "hint": "Hollowed loaf" },
+    { "word": "Khachapuri", "hint": "Cheese-filled bread" },
+    { "word": "Piernik", "hint": "Honey spice cake" },
+    { "word": "Baklava", "hint": "Phyllo layers" },
+    { "word": "Kulfi", "hint": "Dense frozen dessert" },
+    { "word": "Gulab Jamun", "hint": "Rose syrup" },
+    { "word": "Pavlova", "hint": "Meringue" },
+    { "word": "Knafeh", "hint": "Shredded pastry" },
+    { "word": "Basbousa", "hint": "Semolina syrup" },
+    { "word": "Panettone", "hint": "Candied fruit" },
+    { "word": "Brioche", "hint": "Enriched dough" },
+    { "word": "Challah", "hint": "Braided loaf" },
+    { "word": "Injera Bread", "hint": "Teff flour" },
+    { "word": "Durian", "hint": "Pungent aroma" },
+    { "word": "Rambutan", "hint": "Hairy shell" },
+    { "word": "Jackfruit", "hint": "Spiky rind" },
+    { "word": "Jicama", "hint": "Crunchy tuber" },
+    { "word": "Romanesco", "hint": "Fractal florets" },
+    { "word": "Kohlrabi", "hint": "Swollen stem" },
+    { "word": "Daikon", "hint": "White radish" },
+    { "word": "Bitter Melon", "hint": "Warty skin" },
+    { "word": "Tamarind", "hint": "Sour pods" },
+    { "word": "Kombucha", "hint": "Fermented tea" }
   ]
 }

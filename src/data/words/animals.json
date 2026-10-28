@@ -1,248 +1,158 @@
 {
   "easy": [
-    {
-      "word": "Dog",
-      "hint": "Leash"
-    },
-    {
-      "word": "Penguin",
-      "hint": "Ice"
-    },
-    {
-      "word": "Shark",
-      "hint": "Ocean"
-    },
-    {
-      "word": "Elephant",
-      "hint": "Trunk"
-    },
-    {
-      "word": "Cat",
-      "hint": "Whiskers"
-    },
-    {
-      "word": "Horse",
-      "hint": "Saddle"
-    },
-    {
-      "word": "Rabbit",
-      "hint": "Carrot"
-    },
-    {
-      "word": "Lion",
-      "hint": "Mane"
-    },
-    {
-      "word": "Frog",
-      "hint": "Pond"
-    },
-    {
-      "word": "Giraffe",
-      "hint": "Long neck"
-    },
-    {
-      "word": "Dolphin",
-      "hint": "Echolocation"
-    },
-    {
-      "word": "Owl",
-      "hint": "Night"
-    },
-    {
-      "word": "Butterfly",
-      "hint": "Wings"
-    },
-    {
-      "word": "Turtle",
-      "hint": "Shell"
-    },
-    {
-      "word": "Bee",
-      "hint": "Honey"
-    },
-    {
-      "word": "Monkey",
-      "hint": "Banana"
-    },
-    {
-      "word": "Duck",
-      "hint": "Quack"
-    },
-    {
-      "word": "Bear",
-      "hint": "Hibernation"
-    },
-    {
-      "word": "Snake",
-      "hint": "Scales"
-    },
-    {
-      "word": "Kangaroo",
-      "hint": "Pouch"
-    }
+    { "word": "Dog", "hint": "Leash" },
+    { "word": "Cat", "hint": "Whiskers" },
+    { "word": "Lion", "hint": "Mane" },
+    { "word": "Tiger", "hint": "Stripes" },
+    { "word": "Elephant", "hint": "Trunk" },
+    { "word": "Giraffe", "hint": "Long neck" },
+    { "word": "Monkey", "hint": "Banana" },
+    { "word": "Bear", "hint": "Hibernation" },
+    { "word": "Rabbit", "hint": "Burrow" },
+    { "word": "Horse", "hint": "Saddle" },
+    { "word": "Cow", "hint": "Moo" },
+    { "word": "Pig", "hint": "Snout" },
+    { "word": "Sheep", "hint": "Wool" },
+    { "word": "Chicken", "hint": "Eggs" },
+    { "word": "Duck", "hint": "Quack" },
+    { "word": "Eagle", "hint": "Talons" },
+    { "word": "Owl", "hint": "Night vision" },
+    { "word": "Parrot", "hint": "Mimicry" },
+    { "word": "Penguin", "hint": "Tuxedo" },
+    { "word": "Dolphin", "hint": "Echolocation" },
+    { "word": "Whale", "hint": "Blowhole" },
+    { "word": "Shark", "hint": "Fins" },
+    { "word": "Octopus", "hint": "Eight arms" },
+    { "word": "Crab", "hint": "Pincers" },
+    { "word": "Turtle", "hint": "Shell" },
+    { "word": "Frog", "hint": "Croak" },
+    { "word": "Snake", "hint": "Scales" },
+    { "word": "Crocodile", "hint": "Powerful jaws" },
+    { "word": "Lizard", "hint": "Shed skin" },
+    { "word": "Butterfly", "hint": "Caterpillar" },
+    { "word": "Bee", "hint": "Pollen" },
+    { "word": "Ant", "hint": "Colony" },
+    { "word": "Spider", "hint": "Web" },
+    { "word": "Mosquito", "hint": "Bite" },
+    { "word": "Fly", "hint": "Compound eyes" },
+    { "word": "Mouse", "hint": "Cheese" },
+    { "word": "Rat", "hint": "Wharf" },
+    { "word": "Squirrel", "hint": "Acorns" },
+    { "word": "Deer", "hint": "Antlers" },
+    { "word": "Wolf", "hint": "Howling" },
+    { "word": "Fox", "hint": "Bushy tail" },
+    { "word": "Zebra", "hint": "Black and white" },
+    { "word": "Kangaroo", "hint": "Pouch" },
+    { "word": "Panda", "hint": "Bamboo" },
+    { "word": "Koala", "hint": "Eucalyptus" },
+    { "word": "Camel", "hint": "Hump" },
+    { "word": "Frog's Tongue", "hint": "Sticky" },
+    { "word": "Feathers", "hint": "Insulation" },
+    { "word": "Claws", "hint": "Gripping" },
+    { "word": "Tail", "hint": "Balance" }
   ],
   "medium": [
-    {
-      "word": "Chameleon",
-      "hint": "Color"
-    },
-    {
-      "word": "Platypus",
-      "hint": "Bill"
-    },
-    {
-      "word": "Flamingo",
-      "hint": "Pink"
-    },
-    {
-      "word": "Meerkat",
-      "hint": "Sentinel"
-    },
-    {
-      "word": "Porcupine",
-      "hint": "Quills"
-    },
-    {
-      "word": "Hedgehog",
-      "hint": "Spines"
-    },
-    {
-      "word": "Peacock",
-      "hint": "Feathers"
-    },
-    {
-      "word": "Lemur",
-      "hint": "Madagascar"
-    },
-    {
-      "word": "Manatee",
-      "hint": "Seagrass"
-    },
-    {
-      "word": "Wombat",
-      "hint": "Burrow"
-    },
-    {
-      "word": "Pangolin",
-      "hint": "Armor"
-    },
-    {
-      "word": "Toucan",
-      "hint": "Beak"
-    },
-    {
-      "word": "Capybara",
-      "hint": "Rodent"
-    },
-    {
-      "word": "Alpaca",
-      "hint": "Fleece"
-    },
-    {
-      "word": "Manta ray",
-      "hint": "Wingspan"
-    },
-    {
-      "word": "Komodo dragon",
-      "hint": "Island"
-    },
-    {
-      "word": "Armadillo",
-      "hint": "Plates"
-    },
-    {
-      "word": "Sloth",
-      "hint": "Slow"
-    },
-    {
-      "word": "Hyena",
-      "hint": "Cackle"
-    },
-    {
-      "word": "Walrus",
-      "hint": "Tusks"
-    }
+    { "word": "Cheetah", "hint": "Acceleration" },
+    { "word": "Leopard", "hint": "Rosettes" },
+    { "word": "Hippopotamus", "hint": "River" },
+    { "word": "Rhinoceros", "hint": "Horn" },
+    { "word": "Hyena", "hint": "Cackling" },
+    { "word": "Meerkat", "hint": "Sentinel" },
+    { "word": "Sloth", "hint": "Slow movement" },
+    { "word": "Armadillo", "hint": "Armor" },
+    { "word": "Porcupine", "hint": "Quills" },
+    { "word": "Platypus", "hint": "Duck bill" },
+    { "word": "Otter", "hint": "Riverbank" },
+    { "word": "Beaver", "hint": "Dam" },
+    { "word": "Moose", "hint": "Broad antlers" },
+    { "word": "Bison", "hint": "Hump" },
+    { "word": "Llama", "hint": "Spitting" },
+    { "word": "Alpaca", "hint": "Fleece" },
+    { "word": "Flamingo", "hint": "Pink feathers" },
+    { "word": "Peacock", "hint": "Display" },
+    { "word": "Toucan", "hint": "Large beak" },
+    { "word": "Woodpecker", "hint": "Tree trunk" },
+    { "word": "Hummingbird", "hint": "Hovering" },
+    { "word": "Pelican", "hint": "Throat pouch" },
+    { "word": "Seagull", "hint": "Coastline" },
+    { "word": "Albatross", "hint": "Ocean winds" },
+    { "word": "Swordfish", "hint": "Pointed bill" },
+    { "word": "Pufferfish", "hint": "Inflation" },
+    { "word": "Seahorse", "hint": "Curled tail" },
+    { "word": "Jellyfish", "hint": "Stinging tentacles" },
+    { "word": "Lobster", "hint": "Large claws" },
+    { "word": "Starfish", "hint": "Regeneration" },
+    { "word": "Manta Ray", "hint": "Wings underwater" },
+    { "word": "Eel", "hint": "Slippery" },
+    { "word": "Salamander", "hint": "Moist skin" },
+    { "word": "Chameleon", "hint": "Color change" },
+    { "word": "Iguana", "hint": "Dewlap" },
+    { "word": "Komodo Dragon", "hint": "Island predator" },
+    { "word": "Python", "hint": "Constrictor" },
+    { "word": "Cobra", "hint": "Hood" },
+    { "word": "Rattlesnake", "hint": "Warning sound" },
+    { "word": "Tarantula", "hint": "Hairy legs" },
+    { "word": "Scorpion", "hint": "Stinger" },
+    { "word": "Praying Mantis", "hint": "Folded forelegs" },
+    { "word": "Dragonfly", "hint": "Four wings" },
+    { "word": "Ladybug", "hint": "Spotted shell" },
+    { "word": "Grasshopper", "hint": "Leaping" },
+    { "word": "Cicada", "hint": "Summer buzzing" },
+    { "word": "Snail", "hint": "Muscular foot" },
+    { "word": "Earthworm", "hint": "Soil tunnels" },
+    { "word": "Hermit Crab", "hint": "Borrowed shell" },
+    { "word": "Mollusk", "hint": "Soft body" }
   ],
   "hard": [
-    {
-      "word": "Axolotl",
-      "hint": "Regeneration"
-    },
-    {
-      "word": "Okapi",
-      "hint": "Stripes"
-    },
-    {
-      "word": "Narwhal",
-      "hint": "Tusk"
-    },
-    {
-      "word": "Aye-aye",
-      "hint": "Long finger"
-    },
-    {
-      "word": "Saiga",
-      "hint": "Nose"
-    },
-    {
-      "word": "Quokka",
-      "hint": "Smile"
-    },
-    {
-      "word": "Fossa",
-      "hint": "Madagascar"
-    },
-    {
-      "word": "Binturong",
-      "hint": "Popcorn scent"
-    },
-    {
-      "word": "Dugong",
-      "hint": "Seagrass"
-    },
-    {
-      "word": "Markhor",
-      "hint": "Twisted horns"
-    },
-    {
-      "word": "Kakapo",
-      "hint": "Flightless parrot"
-    },
-    {
-      "word": "Shoebill",
-      "hint": "Large bill"
-    },
-    {
-      "word": "Tarsier",
-      "hint": "Huge eyes"
-    },
-    {
-      "word": "Tenrec",
-      "hint": "Spines"
-    },
-    {
-      "word": "Solenodon",
-      "hint": "Venomous bite"
-    },
-    {
-      "word": "Gerenuk",
-      "hint": "Long neck"
-    },
-    {
-      "word": "Potoo",
-      "hint": "Camouflage"
-    },
-    {
-      "word": "Cassowary",
-      "hint": "Helmet"
-    },
-    {
-      "word": "Pika",
-      "hint": "Alpine"
-    },
-    {
-      "word": "Glass frog",
-      "hint": "Transparent skin"
-    }
+    { "word": "Aye-Aye", "hint": "Elongated finger" },
+    { "word": "Fennec Fox", "hint": "Desert ears" },
+    { "word": "Pangolin", "hint": "Keratin scales" },
+    { "word": "Quokka", "hint": "Western Australia" },
+    { "word": "Okapi", "hint": "Zebra-like legs" },
+    { "word": "Saiga Antelope", "hint": "Bulbous nose" },
+    { "word": "Markhor", "hint": "Twisted horns" },
+    { "word": "Tapir", "hint": "Short proboscis" },
+    { "word": "Binturong", "hint": "Popcorn scent" },
+    { "word": "Fossa", "hint": "Madagascar" },
+    { "word": "Numbat", "hint": "Termites" },
+    { "word": "Dugong", "hint": "Seagrass" },
+    { "word": "Narwhal", "hint": "Spiral tusk" },
+    { "word": "Beluga", "hint": "White whale" },
+    { "word": "Goblin Shark", "hint": "Extendable jaws" },
+    { "word": "Mantis Shrimp", "hint": "Powerful strike" },
+    { "word": "Blobfish", "hint": "Deep sea" },
+    { "word": "Leafy Seadragon", "hint": "Camouflage" },
+    { "word": "Axolotl", "hint": "External gills" },
+    { "word": "Olm", "hint": "Cave dwelling" },
+    { "word": "Gharial", "hint": "Narrow snout" },
+    { "word": "Frilled Lizard", "hint": "Neck frill" },
+    { "word": "Flying Fox", "hint": "Fruit bat" },
+    { "word": "Hoatzin", "hint": "Clawed chicks" },
+    { "word": "Shoebill", "hint": "Shoe-shaped beak" },
+    { "word": "Secretary Bird", "hint": "Snake hunting" },
+    { "word": "Lyrebird", "hint": "Sound mimicry" },
+    { "word": "Cassowary", "hint": "Helmet-like casque" },
+    { "word": "Kakapo", "hint": "Flightless parrot" },
+    { "word": "Potoo", "hint": "Tree camouflage" },
+    { "word": "Glass Frog", "hint": "Transparent underside" },
+    { "word": "Surinam Toad", "hint": "Embedded eggs" },
+    { "word": "Hellbender", "hint": "Giant salamander" },
+    { "word": "Marine Iguana", "hint": "Underwater grazing" },
+    { "word": "Thorny Devil", "hint": "Desert spines" },
+    { "word": "Blue-Ringed Octopus", "hint": "Warning patterns" },
+    { "word": "Vampire Squid", "hint": "Deep ocean" },
+    { "word": "Giant Isopod", "hint": "Armored scavenger" },
+    { "word": "Horseshoe Crab", "hint": "Ancient lineage" },
+    { "word": "Nudibranch", "hint": "Colorful sea slug" },
+    { "word": "Velvet Worm", "hint": "Sticky slime" },
+    { "word": "Bombardier Beetle", "hint": "Chemical spray" },
+    { "word": "Atlas Moth", "hint": "Snake-like wing tips" },
+    { "word": "Goliath Beetle", "hint": "Heavy insect" },
+    { "word": "Pistol Shrimp", "hint": "Cavitation bubble" },
+    { "word": "Anglerfish", "hint": "Luminous lure" },
+    { "word": "Electric Eel", "hint": "Electric discharge" },
+    { "word": "Hagfish", "hint": "Defensive slime" },
+    { "word": "Osprey", "hint": "Fish-catching talons" },
+    { "word": "Prehensile Tail", "hint": "Grasping" }
   ]
 }

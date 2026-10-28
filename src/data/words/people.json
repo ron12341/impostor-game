@@ -1,488 +1,158 @@
 {
   "easy": [
-    {
-      "word": "Doctor",
-      "hint": "Stethoscope"
-    },
-    {
-      "word": "Teacher",
-      "hint": "Classroom"
-    },
-    {
-      "word": "Chef",
-      "hint": "Kitchen"
-    },
-    {
-      "word": "Firefighter",
-      "hint": "Hose"
-    },
-    {
-      "word": "Pilot",
-      "hint": "Cockpit"
-    },
-    {
-      "word": "Dentist",
-      "hint": "Toothbrush"
-    },
-    {
-      "word": "Farmer",
-      "hint": "Harvest"
-    },
-    {
-      "word": "Police officer",
-      "hint": "Badge"
-    },
-    {
-      "word": "Artist",
-      "hint": "Paintbrush"
-    },
-    {
-      "word": "Singer",
-      "hint": "Microphone"
-    },
-    {
-      "word": "Mechanic",
-      "hint": "Wrench"
-    },
-    {
-      "word": "Nurse",
-      "hint": "Scrubs"
-    },
-    {
-      "word": "Builder",
-      "hint": "Hard hat"
-    },
-    {
-      "word": "Photographer",
-      "hint": "Camera"
-    },
-    {
-      "word": "Waiter",
-      "hint": "Tray"
-    },
-    {
-      "word": "Plumber",
-      "hint": "Pipes"
-    },
-    {
-      "word": "Baker",
-      "hint": "Oven"
-    },
-    {
-      "word": "Cashier",
-      "hint": "Register"
-    },
-    {
-      "word": "Coach",
-      "hint": "Whistle"
-    },
-    {
-      "word": "Librarian",
-      "hint": "Book cart"
-    },
-    {
-      "word": "Taylor Swift",
-      "hint": "Eras Tour"
-    },
-    {
-      "word": "Cristiano Ronaldo",
-      "hint": "Number 7"
-    },
-    {
-      "word": "Lionel Messi",
-      "hint": "World Cup"
-    },
-    {
-      "word": "MrBeast",
-      "hint": "Challenges"
-    },
-    {
-      "word": "Dwayne Johnson",
-      "hint": "The Rock"
-    },
-    {
-      "word": "Tom Holland",
-      "hint": "Web-slinging"
-    },
-    {
-      "word": "Ariana Grande",
-      "hint": "High notes"
-    },
-    {
-      "word": "Justin Bieber",
-      "hint": "Baby"
-    },
-    {
-      "word": "Beyoncé",
-      "hint": "Formation"
-    },
-    {
-      "word": "Jackie Chan",
-      "hint": "Stunts"
-    },
-    {
-      "word": "Leonardo DiCaprio",
-      "hint": "Titanic"
-    },
-    {
-      "word": "Will Smith",
-      "hint": "Fresh Prince"
-    },
-    {
-      "word": "Kim Kardashian",
-      "hint": "Reality television"
-    },
-    {
-      "word": "Kylian Mbappé",
-      "hint": "French striker"
-    },
-    {
-      "word": "LeBron James",
-      "hint": "King James"
-    },
-    {
-      "word": "Ryan Reynolds",
-      "hint": "Sarcasm"
-    },
-    {
-      "word": "Gordon Ramsay",
-      "hint": "Kitchen nightmares"
-    },
-    {
-      "word": "Oprah Winfrey",
-      "hint": "Talk show"
-    },
-    {
-      "word": "Elon Musk",
-      "hint": "Electric cars"
-    },
-    {
-      "word": "Rowan Atkinson",
-      "hint": "Teddy bear"
-    }
+    { "word": "Teacher", "hint": "Classroom" },
+    { "word": "Doctor", "hint": "Stethoscope" },
+    { "word": "Police Officer", "hint": "Badge" },
+    { "word": "Firefighter", "hint": "Hose" },
+    { "word": "Chef", "hint": "Kitchen" },
+    { "word": "Farmer", "hint": "Harvest" },
+    { "word": "Nurse", "hint": "Hospital" },
+    { "word": "Pilot", "hint": "Cockpit" },
+    { "word": "Artist", "hint": "Canvas" },
+    { "word": "Singer", "hint": "Microphone" },
+    { "word": "Actor", "hint": "Script" },
+    { "word": "Dentist", "hint": "Teeth" },
+    { "word": "Mechanic", "hint": "Wrench" },
+    { "word": "Photographer", "hint": "Camera" },
+    { "word": "Waiter", "hint": "Restaurant" },
+    { "word": "Barber", "hint": "Haircut" },
+    { "word": "Scientist", "hint": "Experiment" },
+    { "word": "Athlete", "hint": "Training" },
+    { "word": "Student", "hint": "Homework" },
+    { "word": "Clown", "hint": "Red nose" },
+    { "word": "Mother", "hint": "Family" },
+    { "word": "Father", "hint": "Parent" },
+    { "word": "Baby", "hint": "Crib" },
+    { "word": "Grandparent", "hint": "Grandchildren" },
+    { "word": "Best Friend", "hint": "Trust" },
+    { "word": "Bride", "hint": "Wedding" },
+    { "word": "Groom", "hint": "Suit" },
+    { "word": "King", "hint": "Crown" },
+    { "word": "Queen", "hint": "Throne" },
+    { "word": "Superhero", "hint": "Cape" },
+    { "word": "Pirate", "hint": "Treasure" },
+    { "word": "Detective", "hint": "Clues" },
+    { "word": "Santa Claus", "hint": "Chimney" },
+    { "word": "Tooth Fairy", "hint": "Pillow" },
+    { "word": "Albert Einstein", "hint": "Relativity" },
+    { "word": "Spider-Man", "hint": "Webs" },
+    { "word": "Batman", "hint": "Gotham" },
+    { "word": "Harry Potter", "hint": "Wand" },
+    { "word": "Mickey Mouse", "hint": "Ears" },
+    { "word": "Sherlock Holmes", "hint": "Mystery" },
+    { "word": "Head", "hint": "Brain" },
+    { "word": "Eyes", "hint": "Vision" },
+    { "word": "Nose", "hint": "Smell" },
+    { "word": "Mouth", "hint": "Speech" },
+    { "word": "Heart", "hint": "Heartbeat" },
+    { "word": "Brain", "hint": "Thinking" },
+    { "word": "Hands", "hint": "Fingers" },
+    { "word": "Knees", "hint": "Bending" },
+    { "word": "Muscles", "hint": "Strength" },
+    { "word": "Skeleton", "hint": "Bones" }
   ],
   "medium": [
-    {
-      "word": "Architect",
-      "hint": "Blueprints"
-    },
-    {
-      "word": "Detective",
-      "hint": "Clues"
-    },
-    {
-      "word": "Journalist",
-      "hint": "Deadline"
-    },
-    {
-      "word": "Veterinarian",
-      "hint": "Paw"
-    },
-    {
-      "word": "Electrician",
-      "hint": "Circuit"
-    },
-    {
-      "word": "Carpenter",
-      "hint": "Saw"
-    },
-    {
-      "word": "Translator",
-      "hint": "Languages"
-    },
-    {
-      "word": "Choreographer",
-      "hint": "Dance"
-    },
-    {
-      "word": "Paramedic",
-      "hint": "Ambulance"
-    },
-    {
-      "word": "Meteorologist",
-      "hint": "Forecast"
-    },
-    {
-      "word": "Archaeologist",
-      "hint": "Artifacts"
-    },
-    {
-      "word": "Cartographer",
-      "hint": "Mapping"
-    },
-    {
-      "word": "Barista",
-      "hint": "Espresso"
-    },
-    {
-      "word": "Sculptor",
-      "hint": "Chisel"
-    },
-    {
-      "word": "Conductor",
-      "hint": "Orchestra"
-    },
-    {
-      "word": "Referee",
-      "hint": "Penalty"
-    },
-    {
-      "word": "Florist",
-      "hint": "Bouquet"
-    },
-    {
-      "word": "Optometrist",
-      "hint": "Vision"
-    },
-    {
-      "word": "Tailor",
-      "hint": "Measurements"
-    },
-    {
-      "word": "Sound engineer",
-      "hint": "Mixing desk"
-    },
-    {
-      "word": "Zendaya",
-      "hint": "Dune"
-    },
-    {
-      "word": "Bruno Mars",
-      "hint": "Uptown Funk"
-    },
-    {
-      "word": "Simone Biles",
-      "hint": "Gymnastics"
-    },
-    {
-      "word": "Keanu Reeves",
-      "hint": "Red pill"
-    },
-    {
-      "word": "Pedro Pascal",
-      "hint": "The Mandalorian"
-    },
-    {
-      "word": "Billie Eilish",
-      "hint": "Ocean Eyes"
-    },
-    {
-      "word": "Sabrina Carpenter",
-      "hint": "Espresso"
-    },
-    {
-      "word": "Jenna Ortega",
-      "hint": "Wednesday"
-    },
-    {
-      "word": "Cillian Murphy",
-      "hint": "Birmingham"
-    },
-    {
-      "word": "Jack Black",
-      "hint": "Tenacious D"
-    },
-    {
-      "word": "Robert Downey Jr.",
-      "hint": "Genius billionaire"
-    },
-    {
-      "word": "Margot Robbie",
-      "hint": "Pink convertible"
-    },
-    {
-      "word": "David Attenborough",
-      "hint": "Wildlife documentaries"
-    },
-    {
-      "word": "Serena Williams",
-      "hint": "Grand Slam"
-    },
-    {
-      "word": "Shohei Ohtani",
-      "hint": "Two-way player"
-    },
-    {
-      "word": "Gong Yoo",
-      "hint": "Dalgona"
-    },
-    {
-      "word": "Jackie Aina",
-      "hint": "Beauty tutorials"
-    },
-    {
-      "word": "Hayao Miyazaki",
-      "hint": "Flying castles"
-    },
-    {
-      "word": "Gigi Hadid",
-      "hint": "Runway"
-    },
-    {
-      "word": "G-Dragon",
-      "hint": "K-pop fashion"
-    }
+    { "word": "Architect", "hint": "Blueprints" },
+    { "word": "Plumber", "hint": "Pipes" },
+    { "word": "Electrician", "hint": "Wiring" },
+    { "word": "Carpenter", "hint": "Timber" },
+    { "word": "Librarian", "hint": "Catalog" },
+    { "word": "Journalist", "hint": "Headline" },
+    { "word": "Lawyer", "hint": "Courtroom" },
+    { "word": "Judge", "hint": "Gavel" },
+    { "word": "Astronaut", "hint": "Spacewalk" },
+    { "word": "Archaeologist", "hint": "Artifacts" },
+    { "word": "Veterinarian", "hint": "Animals" },
+    { "word": "Psychologist", "hint": "Behavior" },
+    { "word": "Fashion Designer", "hint": "Runway" },
+    { "word": "Film Director", "hint": "Storyboard" },
+    { "word": "Magician", "hint": "Illusion" },
+    { "word": "Stunt Performer", "hint": "Danger" },
+    { "word": "Personal Trainer", "hint": "Fitness" },
+    { "word": "Lifeguard", "hint": "Whistle" },
+    { "word": "Flight Attendant", "hint": "Cabin" },
+    { "word": "Game Developer", "hint": "Coding" },
+    { "word": "Bodyguard", "hint": "Protection" },
+    { "word": "Royal Guard", "hint": "Ceremony" },
+    { "word": "Billionaire", "hint": "Fortune" },
+    { "word": "Inventor", "hint": "Prototype" },
+    { "word": "Explorer", "hint": "Expedition" },
+    { "word": "Viking", "hint": "Longship" },
+    { "word": "Samurai", "hint": "Katana" },
+    { "word": "Ninja", "hint": "Stealth" },
+    { "word": "Gladiator", "hint": "Arena" },
+    { "word": "Cowboy", "hint": "Rodeo" },
+    { "word": "Cleopatra", "hint": "Egypt" },
+    { "word": "Julius Caesar", "hint": "Rome" },
+    { "word": "Napoleon Bonaparte", "hint": "France" },
+    { "word": "William Shakespeare", "hint": "Tragedy" },
+    { "word": "Leonardo da Vinci", "hint": "Mona Lisa" },
+    { "word": "Marie Curie", "hint": "Radiation" },
+    { "word": "Taylor Swift", "hint": "Eras" },
+    { "word": "Darth Vader", "hint": "Dark side" },
+    { "word": "Gandalf", "hint": "Staff" },
+    { "word": "Wonder Woman", "hint": "Lasso" },
+    { "word": "Shoulder", "hint": "Joint" },
+    { "word": "Elbow", "hint": "Hinge" },
+    { "word": "Ankle", "hint": "Sprain" },
+    { "word": "Wrist", "hint": "Pulse" },
+    { "word": "Lungs", "hint": "Breathing" },
+    { "word": "Liver", "hint": "Detoxification" },
+    { "word": "Spine", "hint": "Posture" },
+    { "word": "Eardrum", "hint": "Vibration" },
+    { "word": "Vocal Cords", "hint": "Pitch" },
+    { "word": "Diaphragm", "hint": "Hiccups" }
   ],
   "hard": [
-    {
-      "word": "Paleontologist",
-      "hint": "Fossils"
-    },
-    {
-      "word": "Entomologist",
-      "hint": "Insects"
-    },
-    {
-      "word": "Numismatist",
-      "hint": "Coins"
-    },
-    {
-      "word": "Ornithologist",
-      "hint": "Birds"
-    },
-    {
-      "word": "Lexicographer",
-      "hint": "Dictionary"
-    },
-    {
-      "word": "Seismologist",
-      "hint": "Earthquakes"
-    },
-    {
-      "word": "Hydrologist",
-      "hint": "Watersheds"
-    },
-    {
-      "word": "Epigrapher",
-      "hint": "Inscriptions"
-    },
-    {
-      "word": "Mycologist",
-      "hint": "Fungi"
-    },
-    {
-      "word": "Cryptographer",
-      "hint": "Cipher"
-    },
-    {
-      "word": "Philatelist",
-      "hint": "Stamps"
-    },
-    {
-      "word": "Speleologist",
-      "hint": "Caves"
-    },
-    {
-      "word": "Ichthyologist",
-      "hint": "Fish"
-    },
-    {
-      "word": "Luthier",
-      "hint": "String instrument"
-    },
-    {
-      "word": "Silversmith",
-      "hint": "Filigree"
-    },
-    {
-      "word": "Sommelier",
-      "hint": "Tasting notes"
-    },
-    {
-      "word": "Archivist",
-      "hint": "Records"
-    },
-    {
-      "word": "Demographer",
-      "hint": "Population"
-    },
-    {
-      "word": "Forensic analyst",
-      "hint": "Evidence"
-    },
-    {
-      "word": "Ethnomusicologist",
-      "hint": "Traditions"
-    },
-    {
-      "word": "Ada Lovelace",
-      "hint": "Analytical Engine"
-    },
-    {
-      "word": "Alan Turing",
-      "hint": "Enigma"
-    },
-    {
-      "word": "Frida Kahlo",
-      "hint": "Self-portraits"
-    },
-    {
-      "word": "Nikola Tesla",
-      "hint": "Alternating current"
-    },
-    {
-      "word": "Hedy Lamarr",
-      "hint": "Frequency hopping"
-    },
-    {
-      "word": "Hypatia",
-      "hint": "Alexandria"
-    },
-    {
-      "word": "Haruki Murakami",
-      "hint": "Surreal fiction"
-    },
-    {
-      "word": "Akira Kurosawa",
-      "hint": "Seven warriors"
-    },
-    {
-      "word": "Tilda Swinton",
-      "hint": "Androgynous roles"
-    },
-    {
-      "word": "Björk",
-      "hint": "Icelandic avant-garde"
-    },
-    {
-      "word": "Nujabes",
-      "hint": "Jazz rap"
-    },
-    {
-      "word": "Satoshi Kon",
-      "hint": "Dreamlike animation"
-    },
-    {
-      "word": "Rachel Carson",
-      "hint": "Silent Spring"
-    },
-    {
-      "word": "Katherine Johnson",
-      "hint": "Orbital calculations"
-    },
-    {
-      "word": "James Baldwin",
-      "hint": "Go Tell It on the Mountain"
-    },
-    {
-      "word": "Mary Anning",
-      "hint": "Jurassic fossils"
-    },
-    {
-      "word": "Chien-Shiung Wu",
-      "hint": "Parity experiment"
-    },
-    {
-      "word": "Guillermo del Toro",
-      "hint": "Monstrous fairy tales"
-    },
-    {
-      "word": "Srinivasa Ramanujan",
-      "hint": "Number theory"
-    },
-    {
-      "word": "Yayoi Kusama",
-      "hint": "Infinity rooms"
-    }
+    { "word": "Paleontologist", "hint": "Fossils" },
+    { "word": "Entomologist", "hint": "Insects" },
+    { "word": "Meteorologist", "hint": "Forecast" },
+    { "word": "Cartographer", "hint": "Topography" },
+    { "word": "Forensic Analyst", "hint": "Evidence" },
+    { "word": "Diplomat", "hint": "Embassy" },
+    { "word": "Philanthropist", "hint": "Charity" },
+    { "word": "Conductor", "hint": "Symphony" },
+    { "word": "Choreographer", "hint": "Movement" },
+    { "word": "Calligrapher", "hint": "Penmanship" },
+    { "word": "Blacksmith", "hint": "Forge" },
+    { "word": "Watchmaker", "hint": "Gears" },
+    { "word": "Locksmith", "hint": "Tumblers" },
+    { "word": "Falconer", "hint": "Hood" },
+    { "word": "Beekeeper", "hint": "Hive" },
+    { "word": "Shipwright", "hint": "Hull" },
+    { "word": "Undertaker", "hint": "Funeral" },
+    { "word": "Sommelier", "hint": "Tasting" },
+    { "word": "Cryptographer", "hint": "Cipher" },
+    { "word": "Ethnographer", "hint": "Culture" },
+    { "word": "Alchemist", "hint": "Transmutation" },
+    { "word": "Oracle", "hint": "Prophecy" },
+    { "word": "Necromancer", "hint": "Undead" },
+    { "word": "Bounty Hunter", "hint": "Reward" },
+    { "word": "Mercenary", "hint": "Contract" },
+    { "word": "Joan of Arc", "hint": "Visions" },
+    { "word": "Sun Tzu", "hint": "Strategy" },
+    { "word": "Miyamoto Musashi", "hint": "Dueling" },
+    { "word": "Galileo Galilei", "hint": "Telescope" },
+    { "word": "Nikola Tesla", "hint": "Alternating current" },
+    { "word": "Ada Lovelace", "hint": "Algorithm" },
+    { "word": "Alan Turing", "hint": "Enigma" },
+    { "word": "Frida Kahlo", "hint": "Self-portraits" },
+    { "word": "Vincent van Gogh", "hint": "Sunflowers" },
+    { "word": "Amelia Earhart", "hint": "Aviation" },
+    { "word": "Genghis Khan", "hint": "Mongol Empire" },
+    { "word": "Medusa", "hint": "Serpents" },
+    { "word": "Loki", "hint": "Trickery" },
+    { "word": "Hermione Granger", "hint": "Spellwork" },
+    { "word": "Geralt of Rivia", "hint": "Silver sword" },
+    { "word": "Achilles Tendon", "hint": "Heel" },
+    { "word": "Patella", "hint": "Kneecap" },
+    { "word": "Clavicle", "hint": "Collarbone" },
+    { "word": "Scapula", "hint": "Shoulder blade" },
+    { "word": "Femur", "hint": "Thigh" },
+    { "word": "Radius", "hint": "Forearm" },
+    { "word": "Ulna", "hint": "Elbow" },
+    { "word": "Retina", "hint": "Light" },
+    { "word": "Cochlea", "hint": "Hearing" },
+    { "word": "Pancreas", "hint": "Insulin" }
   ]
 }

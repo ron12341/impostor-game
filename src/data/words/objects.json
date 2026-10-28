@@ -1,248 +1,158 @@
 {
   "easy": [
-    {
-      "word": "Umbrella",
-      "hint": "Rain"
-    },
-    {
-      "word": "Backpack",
-      "hint": "School"
-    },
-    {
-      "word": "Mirror",
-      "hint": "Reflection"
-    },
-    {
-      "word": "Pillow",
-      "hint": "Sleep"
-    },
-    {
-      "word": "Toothbrush",
-      "hint": "Bristles"
-    },
-    {
-      "word": "Flashlight",
-      "hint": "Batteries"
-    },
-    {
-      "word": "Scissors",
-      "hint": "Cutting"
-    },
-    {
-      "word": "Suitcase",
-      "hint": "Travel"
-    },
-    {
-      "word": "Clock",
-      "hint": "Time"
-    },
-    {
-      "word": "Candle",
-      "hint": "Flame"
-    },
-    {
-      "word": "Wallet",
-      "hint": "Coins"
-    },
-    {
-      "word": "Broom",
-      "hint": "Sweeping"
-    },
-    {
-      "word": "Blanket",
-      "hint": "Warmth"
-    },
-    {
-      "word": "Mug",
-      "hint": "Handle"
-    },
-    {
-      "word": "Key",
-      "hint": "Lock"
-    },
-    {
-      "word": "Ladder",
-      "hint": "Rungs"
-    },
-    {
-      "word": "Binoculars",
-      "hint": "Distance"
-    },
-    {
-      "word": "Helmet",
-      "hint": "Protection"
-    },
-    {
-      "word": "Compass",
-      "hint": "Direction"
-    },
-    {
-      "word": "Thermometer",
-      "hint": "Temperature"
-    }
+    { "word": "Keys", "hint": "Keychain" },
+    { "word": "Mug", "hint": "Handle" },
+    { "word": "Umbrella", "hint": "Rain" },
+    { "word": "Pillow", "hint": "Sleep" },
+    { "word": "Mirror", "hint": "Reflection" },
+    { "word": "Backpack", "hint": "Shoulder straps" },
+    { "word": "Scissors", "hint": "Blades" },
+    { "word": "Toothbrush", "hint": "Bristles" },
+    { "word": "Wallet", "hint": "Cash" },
+    { "word": "Flashlight", "hint": "Beam" },
+    { "word": "Chair", "hint": "Legs" },
+    { "word": "Table", "hint": "Surface" },
+    { "word": "Sofa", "hint": "Cushions" },
+    { "word": "Bed", "hint": "Mattress" },
+    { "word": "Blanket", "hint": "Warmth" },
+    { "word": "Towel", "hint": "Absorbent" },
+    { "word": "Soap", "hint": "Lather" },
+    { "word": "Comb", "hint": "Teeth" },
+    { "word": "Hairbrush", "hint": "Detangling" },
+    { "word": "Sunglasses", "hint": "Tinted lenses" },
+    { "word": "Watch", "hint": "Wrist" },
+    { "word": "Ring", "hint": "Finger" },
+    { "word": "Necklace", "hint": "Pendant" },
+    { "word": "Bracelet", "hint": "Wristband" },
+    { "word": "Hat", "hint": "Brim" },
+    { "word": "Scarf", "hint": "Winter" },
+    { "word": "Gloves", "hint": "Fingers" },
+    { "word": "Belt", "hint": "Buckle" },
+    { "word": "Shoes", "hint": "Laces" },
+    { "word": "Socks", "hint": "Pair" },
+    { "word": "T-shirt", "hint": "Cotton" },
+    { "word": "Jeans", "hint": "Denim" },
+    { "word": "Jacket", "hint": "Zipper" },
+    { "word": "Suitcase", "hint": "Travel" },
+    { "word": "Shopping Bag", "hint": "Handles" },
+    { "word": "Water Bottle", "hint": "Refill" },
+    { "word": "Plate", "hint": "Dinner" },
+    { "word": "Bowl", "hint": "Soup" },
+    { "word": "Fork", "hint": "Prongs" },
+    { "word": "Spoon", "hint": "Scoop" },
+    { "word": "Knife", "hint": "Cutting" },
+    { "word": "Cup", "hint": "Drinking" },
+    { "word": "Frying Pan", "hint": "Sizzle" },
+    { "word": "Pot", "hint": "Boiling" },
+    { "word": "Broom", "hint": "Sweeping" },
+    { "word": "Mop", "hint": "Floor" },
+    { "word": "Bucket", "hint": "Handle" },
+    { "word": "Dustpan", "hint": "Crumbs" },
+    { "word": "Pencil", "hint": "Eraser" },
+    { "word": "Notebook", "hint": "Pages" }
   ],
   "medium": [
-    {
-      "word": "Hourglass",
-      "hint": "Sand"
-    },
-    {
-      "word": "Telescope",
-      "hint": "Magnification"
-    },
-    {
-      "word": "Periscope",
-      "hint": "Submarine"
-    },
-    {
-      "word": "Metronome",
-      "hint": "Rhythm"
-    },
-    {
-      "word": "Kaleidoscope",
-      "hint": "Patterns"
-    },
-    {
-      "word": "Abacus",
-      "hint": "Counting"
-    },
-    {
-      "word": "Sextant",
-      "hint": "Navigation"
-    },
-    {
-      "word": "Pendulum",
-      "hint": "Swing"
-    },
-    {
-      "word": "Stethoscope",
-      "hint": "Heartbeat"
-    },
-    {
-      "word": "Pulley",
-      "hint": "Load"
-    },
-    {
-      "word": "Anemometer",
-      "hint": "Wind speed"
-    },
-    {
-      "word": "Barometer",
-      "hint": "Air pressure"
-    },
-    {
-      "word": "Caliper",
-      "hint": "Precision"
-    },
-    {
-      "word": "Gimbal",
-      "hint": "Stabilization"
-    },
-    {
-      "word": "Mortar and pestle",
-      "hint": "Grinding"
-    },
-    {
-      "word": "Sundial",
-      "hint": "Shadow"
-    },
-    {
-      "word": "Tripod",
-      "hint": "Three legs"
-    },
-    {
-      "word": "Loom",
-      "hint": "Weaving"
-    },
-    {
-      "word": "Vise",
-      "hint": "Clamping"
-    },
-    {
-      "word": "Carabiner",
-      "hint": "Clipping"
-    }
+    { "word": "Wrench", "hint": "Bolts" },
+    { "word": "Screwdriver", "hint": "Screws" },
+    { "word": "Pliers", "hint": "Gripping" },
+    { "word": "Hammer", "hint": "Nails" },
+    { "word": "Measuring Tape", "hint": "Length" },
+    { "word": "Level", "hint": "Bubble" },
+    { "word": "Stapler", "hint": "Fastening" },
+    { "word": "Hole Punch", "hint": "Paper circles" },
+    { "word": "Compass", "hint": "North" },
+    { "word": "Binoculars", "hint": "Magnification" },
+    { "word": "Telescope", "hint": "Distant stars" },
+    { "word": "Hourglass", "hint": "Falling sand" },
+    { "word": "Padlock", "hint": "Combination" },
+    { "word": "Corkscrew", "hint": "Spiral" },
+    { "word": "Can Opener", "hint": "Metal lid" },
+    { "word": "Garlic Press", "hint": "Crushing" },
+    { "word": "Rolling Pin", "hint": "Pastry" },
+    { "word": "Whisk", "hint": "Beating" },
+    { "word": "Colander", "hint": "Draining" },
+    { "word": "Mortar and Pestle", "hint": "Grinding" },
+    { "word": "Sewing Machine", "hint": "Stitches" },
+    { "word": "Thimble", "hint": "Fingertip" },
+    { "word": "Needle", "hint": "Thread" },
+    { "word": "Spool", "hint": "Winding" },
+    { "word": "Typewriter", "hint": "Carriage" },
+    { "word": "Abacus", "hint": "Beads" },
+    { "word": "Rubber Stamp", "hint": "Ink pad" },
+    { "word": "Paperweight", "hint": "Desk" },
+    { "word": "Protractor", "hint": "Degrees" },
+    { "word": "Stencils", "hint": "Outlines" },
+    { "word": "Chessboard", "hint": "Squares" },
+    { "word": "Yo-yo", "hint": "String" },
+    { "word": "Kite", "hint": "Wind" },
+    { "word": "Frisbee", "hint": "Flying disc" },
+    { "word": "Jigsaw Puzzle", "hint": "Interlocking pieces" },
+    { "word": "Rubik's Cube", "hint": "Color matching" },
+    { "word": "Marbles", "hint": "Glass spheres" },
+    { "word": "Skipping Rope", "hint": "Jumping" },
+    { "word": "Hula Hoop", "hint": "Waist" },
+    { "word": "Trophy", "hint": "Winner" },
+    { "word": "Medal", "hint": "Ribbon" },
+    { "word": "Candleholder", "hint": "Wax" },
+    { "word": "Vase", "hint": "Bouquet" },
+    { "word": "Doormat", "hint": "Doorstep" },
+    { "word": "Coat Hanger", "hint": "Closet" },
+    { "word": "Laundry Basket", "hint": "Clothes" },
+    { "word": "Ironing Board", "hint": "Wrinkles" },
+    { "word": "Clothes Peg", "hint": "Washing line" },
+    { "word": "Doorstop", "hint": "Wedge" },
+    { "word": "Padlock Key", "hint": "Unlocking" }
   ],
   "hard": [
-    {
-      "word": "Astrolabe",
-      "hint": "Celestial navigation"
-    },
-    {
-      "word": "Theodolite",
-      "hint": "Surveying"
-    },
-    {
-      "word": "Orrery",
-      "hint": "Planetary motion"
-    },
-    {
-      "word": "Gyroscope",
-      "hint": "Orientation"
-    },
-    {
-      "word": "Oscilloscope",
-      "hint": "Waveforms"
-    },
-    {
-      "word": "Interferometer",
-      "hint": "Light waves"
-    },
-    {
-      "word": "Spectrometer",
-      "hint": "Wavelengths"
-    },
-    {
-      "word": "Planisphere",
-      "hint": "Star map"
-    },
-    {
-      "word": "Heliograph",
-      "hint": "Sunlight signals"
-    },
-    {
-      "word": "Hydrometer",
-      "hint": "Specific gravity"
-    },
-    {
-      "word": "Galvanometer",
-      "hint": "Electric current"
-    },
-    {
-      "word": "Manometer",
-      "hint": "Fluid pressure"
-    },
-    {
-      "word": "Planimeter",
-      "hint": "Area measurement"
-    },
-    {
-      "word": "Sphygmomanometer",
-      "hint": "Blood pressure"
-    },
-    {
-      "word": "Dynamometer",
-      "hint": "Force"
-    },
-    {
-      "word": "Phonograph",
-      "hint": "Grooves"
-    },
-    {
-      "word": "Centrifuge",
-      "hint": "Rotation"
-    },
-    {
-      "word": "Micrometer",
-      "hint": "Fine measurement"
-    },
-    {
-      "word": "Theodolite",
-      "hint": "Angle measurement"
-    },
-    {
-      "word": "Pantograph",
-      "hint": "Scaled drawing"
-    }
+    { "word": "Astrolabe", "hint": "Celestial navigation" },
+    { "word": "Sextant", "hint": "Horizon" },
+    { "word": "Calipers", "hint": "Precise measurement" },
+    { "word": "Metronome", "hint": "Steady tempo" },
+    { "word": "Periscope", "hint": "Hidden view" },
+    { "word": "Kaleidoscope", "hint": "Colorful patterns" },
+    { "word": "Plumb Bob", "hint": "Vertical alignment" },
+    { "word": "Tuning Fork", "hint": "Resonance" },
+    { "word": "Dividers", "hint": "Distance transfer" },
+    { "word": "Slide Rule", "hint": "Logarithmic scales" },
+    { "word": "Pantograph", "hint": "Scaled copying" },
+    { "word": "Planimeter", "hint": "Area measurement" },
+    { "word": "Theodolite", "hint": "Surveying angles" },
+    { "word": "Micrometer", "hint": "Tiny distances" },
+    { "word": "Hydrometer", "hint": "Liquid density" },
+    { "word": "Barometer", "hint": "Atmospheric pressure" },
+    { "word": "Anemometer", "hint": "Wind speed" },
+    { "word": "Thermocouple", "hint": "Temperature sensing" },
+    { "word": "Sundial", "hint": "Moving shadow" },
+    { "word": "Armillary Sphere", "hint": "Celestial rings" },
+    { "word": "Orrery", "hint": "Planetary motion" },
+    { "word": "Gyroscope", "hint": "Angular momentum" },
+    { "word": "Jacquard Loom", "hint": "Patterned weaving" },
+    { "word": "Spinning Wheel", "hint": "Fiber twisting" },
+    { "word": "Loom", "hint": "Warp and weft" },
+    { "word": "Lathe", "hint": "Rotating workpiece" },
+    { "word": "Anvil", "hint": "Blacksmith" },
+    { "word": "Drawknife", "hint": "Wood shaving" },
+    { "word": "Adze", "hint": "Curved blade" },
+    { "word": "Auger", "hint": "Boring holes" },
+    { "word": "Chisel", "hint": "Carving" },
+    { "word": "Spokeshave", "hint": "Shaping wood" },
+    { "word": "Mortise Gauge", "hint": "Parallel marking" },
+    { "word": "Scriber", "hint": "Fine lines" },
+    { "word": "Pruning Shears", "hint": "Branch cutting" },
+    { "word": "Grafting Knife", "hint": "Plant joining" },
+    { "word": "Dibber", "hint": "Planting holes" },
+    { "word": "Hori Hori", "hint": "Garden blade" },
+    { "word": "Dowsing Rod", "hint": "Hidden water" },
+    { "word": "Corn Dolly", "hint": "Harvest tradition" },
+    { "word": "Snuffbox", "hint": "Small container" },
+    { "word": "Chatelaine", "hint": "Waist-hung tools" },
+    { "word": "Lorgnette", "hint": "Handle-mounted spectacles" },
+    { "word": "Monocle", "hint": "Single lens" },
+    { "word": "Cameo Brooch", "hint": "Carved profile" },
+    { "word": "Thurible", "hint": "Swinging incense" },
+    { "word": "Reliquary", "hint": "Sacred remains" },
+    { "word": "Censer", "hint": "Burning incense" },
+    { "word": "Whetstone", "hint": "Sharpening edge" },
+    { "word": "Treenail", "hint": "Wooden fastener" }
   ]
 }

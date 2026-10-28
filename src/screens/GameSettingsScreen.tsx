@@ -1,6 +1,6 @@
 import { useRouter } from "expo-router";
 import { useMemo, useState, type ReactNode } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import AppButton from "@/components/ui/AppButton";
 import Screen from "@/components/ui/Screen";
@@ -18,11 +18,11 @@ export default function GameSettingsScreen() {
   const setRound = useGameStore((state) => state.setRound);
 
   const maxImpostorCount = useMemo(() => {
-    return Math.floor((players.length - 1) / 2);
+    return Math.max(1, Math.floor((players.length - 1) / 2));
   }, [players.length]);
 
   const [mode, setMode] = useState<GameMode>(() => savedSettings?.mode ?? "classic");
-  const [impostorCount, setImpostorCount] = useState<number>(() => Math.min(savedSettings?.impostorCount ?? 1, maxImpostorCount));
+  const [impostorCount, setImpostorCount] = useState<number>(() => Math.max(1, Math.min(savedSettings?.impostorCount ?? 1, maxImpostorCount)));
   const [category, setCategory] = useState<GameCategory>(() => savedSettings?.category ?? "all");
   const [hintMode, setHintMode] = useState<HintMode>(() => savedSettings?.hintMode ?? "none");
   const [difficulty, setDifficulty] = useState<Difficulty>(() => savedSettings?.difficulty ?? "easy");
@@ -46,6 +46,21 @@ export default function GameSettingsScreen() {
   };
 
   const handleContinue = () => {
+    if (players.length < 3) {
+      Alert.alert("Not enough players", "You need at least 3 players to start a game.");
+      return;
+    }
+
+    if (impostorCount > Math.floor((players.length - 1) / 2)) {
+      Alert.alert("Invalid impostor count", "Reduce the number of impostors for this player count.");
+      return;
+    }
+
+    if (mode === "chaos") {
+      Alert.alert("Coming soon", "Chaos mode is not implemented yet. Please select Classic mode.");
+      return;
+    }
+
     const settings = {
       mode,
       impostorCount,
@@ -53,12 +68,16 @@ export default function GameSettingsScreen() {
       hintMode,
       difficulty,
     };
-    setSettings(settings);
 
-    const round = initializeGame(players, settings);
-    setRound(round);
+    try {
+      const round = initializeGame(players, settings);
 
-    router.push("/game/reveal");
+      setSettings(settings);
+      setRound(round);
+      router.push("/game/reveal");
+    } catch (error) {
+      Alert.alert("Unable to start game", error instanceof Error ? error.message : "Something went wrong. Please try again.");
+    }
   };
 
   return (

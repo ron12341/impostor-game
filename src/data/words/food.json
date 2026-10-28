@@ -1,0 +1,248 @@
+{
+  "easy": [
+    {
+      "word": "Pizza",
+      "hint": "Cheese"
+    },
+    {
+      "word": "Hamburger",
+      "hint": "Bun"
+    },
+    {
+      "word": "Pancakes",
+      "hint": "Syrup"
+    },
+    {
+      "word": "Apple",
+      "hint": "Core"
+    },
+    {
+      "word": "Ice cream",
+      "hint": "Cone"
+    },
+    {
+      "word": "French fries",
+      "hint": "Ketchup"
+    },
+    {
+      "word": "Sandwich",
+      "hint": "Filling"
+    },
+    {
+      "word": "Popcorn",
+      "hint": "Movie"
+    },
+    {
+      "word": "Chocolate",
+      "hint": "Cocoa"
+    },
+    {
+      "word": "Taco",
+      "hint": "Tortilla"
+    },
+    {
+      "word": "Spaghetti",
+      "hint": "Noodles"
+    },
+    {
+      "word": "Cookie",
+      "hint": "Chocolate chips"
+    },
+    {
+      "word": "Donut",
+      "hint": "Sprinkles"
+    },
+    {
+      "word": "Salad",
+      "hint": "Lettuce"
+    },
+    {
+      "word": "Hot dog",
+      "hint": "Mustard"
+    },
+    {
+      "word": "Toast",
+      "hint": "Butter"
+    },
+    {
+      "word": "Watermelon",
+      "hint": "Seeds"
+    },
+    {
+      "word": "Cupcake",
+      "hint": "Frosting"
+    },
+    {
+      "word": "Soup",
+      "hint": "Spoon"
+    },
+    {
+      "word": "Omelet",
+      "hint": "Eggs"
+    }
+  ],
+  "medium": [
+    {
+      "word": "Sushi",
+      "hint": "Chopsticks"
+    },
+    {
+      "word": "Lasagna",
+      "hint": "Layers"
+    },
+    {
+      "word": "Dumplings",
+      "hint": "Filling"
+    },
+    {
+      "word": "Risotto",
+      "hint": "Stirring"
+    },
+    {
+      "word": "Falafel",
+      "hint": "Chickpeas"
+    },
+    {
+      "word": "Gnocchi",
+      "hint": "Potato"
+    },
+    {
+      "word": "Paella",
+      "hint": "Saffron"
+    },
+    {
+      "word": "Kimchi",
+      "hint": "Fermentation"
+    },
+    {
+      "word": "Couscous",
+      "hint": "Semolina"
+    },
+    {
+      "word": "Shakshuka",
+      "hint": "Poached eggs"
+    },
+    {
+      "word": "Poutine",
+      "hint": "Gravy"
+    },
+    {
+      "word": "Burrito",
+      "hint": "Wrapped"
+    },
+    {
+      "word": "Empanada",
+      "hint": "Pastry"
+    },
+    {
+      "word": "Miso soup",
+      "hint": "Seaweed"
+    },
+    {
+      "word": "Ramen",
+      "hint": "Broth"
+    },
+    {
+      "word": "Tiramisu",
+      "hint": "Coffee"
+    },
+    {
+      "word": "Baklava",
+      "hint": "Phyllo"
+    },
+    {
+      "word": "Gazpacho",
+      "hint": "Chilled"
+    },
+    {
+      "word": "Pierogi",
+      "hint": "Sour cream"
+    },
+    {
+      "word": "Bibimbap",
+      "hint": "Mixed bowl"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Ratatouille",
+      "hint": "Vegetables"
+    },
+    {
+      "word": "Beef Wellington",
+      "hint": "Pastry"
+    },
+    {
+      "word": "Crème brûlée",
+      "hint": "Caramelized"
+    },
+    {
+      "word": "Bouillabaisse",
+      "hint": "Seafood stew"
+    },
+    {
+      "word": "Cassoulet",
+      "hint": "White beans"
+    },
+    {
+      "word": "Chateaubriand",
+      "hint": "Tenderloin"
+    },
+    {
+      "word": "Ceviche",
+      "hint": "Citrus"
+    },
+    {
+      "word": "Doro wat",
+      "hint": "Berbere"
+    },
+    {
+      "word": "Fesenjan",
+      "hint": "Pomegranate"
+    },
+    {
+      "word": "Kaiseki",
+      "hint": "Seasonal courses"
+    },
+    {
+      "word": "Laksa",
+      "hint": "Coconut broth"
+    },
+    {
+      "word": "Mole poblano",
+      "hint": "Chocolate sauce"
+    },
+    {
+      "word": "Ossobuco",
+      "hint": "Marrowbone"
+    },
+    {
+      "word": "Pavlova",
+      "hint": "Meringue"
+    },
+    {
+      "word": "Pithivier",
+      "hint": "Enclosed pastry"
+    },
+    {
+      "word": "Sauerbraten",
+      "hint": "Marinade"
+    },
+    {
+      "word": "Spanakopita",
+      "hint": "Spinach pastry"
+    },
+    {
+      "word": "Tagine",
+      "hint": "Conical pot"
+    },
+    {
+      "word": "Tteokbokki",
+      "hint": "Rice cakes"
+    },
+    {
+      "word": "Zabaglione",
+      "hint": "Whipped yolks"
+    }
+  ]
+}

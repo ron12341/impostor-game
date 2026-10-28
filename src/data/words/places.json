@@ -1,0 +1,248 @@
+{
+  "easy": [
+    {
+      "word": "Beach",
+      "hint": "Sunscreen"
+    },
+    {
+      "word": "Airport",
+      "hint": "Luggage"
+    },
+    {
+      "word": "Hospital",
+      "hint": "Stethoscope"
+    },
+    {
+      "word": "Library",
+      "hint": "Books"
+    },
+    {
+      "word": "School",
+      "hint": "Homework"
+    },
+    {
+      "word": "Park",
+      "hint": "Picnic"
+    },
+    {
+      "word": "Restaurant",
+      "hint": "Menu"
+    },
+    {
+      "word": "Cinema",
+      "hint": "Popcorn"
+    },
+    {
+      "word": "Supermarket",
+      "hint": "Cart"
+    },
+    {
+      "word": "Hotel",
+      "hint": "Keycard"
+    },
+    {
+      "word": "Zoo",
+      "hint": "Enclosure"
+    },
+    {
+      "word": "Museum",
+      "hint": "Exhibits"
+    },
+    {
+      "word": "Stadium",
+      "hint": "Cheering"
+    },
+    {
+      "word": "Farm",
+      "hint": "Barn"
+    },
+    {
+      "word": "Pool",
+      "hint": "Lifeguard"
+    },
+    {
+      "word": "Train station",
+      "hint": "Platform"
+    },
+    {
+      "word": "Bakery",
+      "hint": "Fresh bread"
+    },
+    {
+      "word": "Bank",
+      "hint": "Vault"
+    },
+    {
+      "word": "Gym",
+      "hint": "Weights"
+    },
+    {
+      "word": "Playground",
+      "hint": "Swings"
+    }
+  ],
+  "medium": [
+    {
+      "word": "Aquarium",
+      "hint": "Marine life"
+    },
+    {
+      "word": "Lighthouse",
+      "hint": "Ships"
+    },
+    {
+      "word": "Botanical garden",
+      "hint": "Greenhouse"
+    },
+    {
+      "word": "Courthouse",
+      "hint": "Jury"
+    },
+    {
+      "word": "Observatory",
+      "hint": "Telescope"
+    },
+    {
+      "word": "Amusement park",
+      "hint": "Roller coaster"
+    },
+    {
+      "word": "Campground",
+      "hint": "Tent"
+    },
+    {
+      "word": "Harbor",
+      "hint": "Docks"
+    },
+    {
+      "word": "Art gallery",
+      "hint": "Canvas"
+    },
+    {
+      "word": "Monastery",
+      "hint": "Monks"
+    },
+    {
+      "word": "Planetarium",
+      "hint": "Constellations"
+    },
+    {
+      "word": "Ski resort",
+      "hint": "Chairlift"
+    },
+    {
+      "word": "Convention center",
+      "hint": "Exhibitors"
+    },
+    {
+      "word": "Ferry terminal",
+      "hint": "Boarding pass"
+    },
+    {
+      "word": "Theater",
+      "hint": "Backstage"
+    },
+    {
+      "word": "Winery",
+      "hint": "Vineyard"
+    },
+    {
+      "word": "Waterfall",
+      "hint": "Mist"
+    },
+    {
+      "word": "Canyon",
+      "hint": "Cliffs"
+    },
+    {
+      "word": "Market square",
+      "hint": "Stalls"
+    },
+    {
+      "word": "University campus",
+      "hint": "Lecture hall"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Amphitheater",
+      "hint": "Audience"
+    },
+    {
+      "word": "Arboretum",
+      "hint": "Tree collection"
+    },
+    {
+      "word": "Catacombs",
+      "hint": "Underground"
+    },
+    {
+      "word": "Citadel",
+      "hint": "Fortification"
+    },
+    {
+      "word": "Cloister",
+      "hint": "Arcade"
+    },
+    {
+      "word": "Conservatory",
+      "hint": "Glass roof"
+    },
+    {
+      "word": "Estuary",
+      "hint": "Tidal water"
+    },
+    {
+      "word": "Fjord",
+      "hint": "Steep coastline"
+    },
+    {
+      "word": "Geyser basin",
+      "hint": "Eruption"
+    },
+    {
+      "word": "Mausoleum",
+      "hint": "Tomb"
+    },
+    {
+      "word": "Necropolis",
+      "hint": "Burial ground"
+    },
+    {
+      "word": "Orangery",
+      "hint": "Citrus trees"
+    },
+    {
+      "word": "Palisade",
+      "hint": "Wooden stakes"
+    },
+    {
+      "word": "Promontory",
+      "hint": "Headland"
+    },
+    {
+      "word": "Sanatorium",
+      "hint": "Recovery"
+    },
+    {
+      "word": "Sepulcher",
+      "hint": "Burial"
+    },
+    {
+      "word": "Ziggurat",
+      "hint": "Terraced temple"
+    },
+    {
+      "word": "Aqueduct",
+      "hint": "Arches"
+    },
+    {
+      "word": "Bastion",
+      "hint": "Rampart"
+    },
+    {
+      "word": "Dolmen",
+      "hint": "Stone monument"
+    }
+  ]
+}

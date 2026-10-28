@@ -1,0 +1,248 @@
+{
+  "easy": [
+    {
+      "word": "Dog",
+      "hint": "Leash"
+    },
+    {
+      "word": "Penguin",
+      "hint": "Ice"
+    },
+    {
+      "word": "Shark",
+      "hint": "Ocean"
+    },
+    {
+      "word": "Elephant",
+      "hint": "Trunk"
+    },
+    {
+      "word": "Cat",
+      "hint": "Whiskers"
+    },
+    {
+      "word": "Horse",
+      "hint": "Saddle"
+    },
+    {
+      "word": "Rabbit",
+      "hint": "Carrot"
+    },
+    {
+      "word": "Lion",
+      "hint": "Mane"
+    },
+    {
+      "word": "Frog",
+      "hint": "Pond"
+    },
+    {
+      "word": "Giraffe",
+      "hint": "Long neck"
+    },
+    {
+      "word": "Dolphin",
+      "hint": "Echolocation"
+    },
+    {
+      "word": "Owl",
+      "hint": "Night"
+    },
+    {
+      "word": "Butterfly",
+      "hint": "Wings"
+    },
+    {
+      "word": "Turtle",
+      "hint": "Shell"
+    },
+    {
+      "word": "Bee",
+      "hint": "Honey"
+    },
+    {
+      "word": "Monkey",
+      "hint": "Banana"
+    },
+    {
+      "word": "Duck",
+      "hint": "Quack"
+    },
+    {
+      "word": "Bear",
+      "hint": "Hibernation"
+    },
+    {
+      "word": "Snake",
+      "hint": "Scales"
+    },
+    {
+      "word": "Kangaroo",
+      "hint": "Pouch"
+    }
+  ],
+  "medium": [
+    {
+      "word": "Chameleon",
+      "hint": "Color"
+    },
+    {
+      "word": "Platypus",
+      "hint": "Bill"
+    },
+    {
+      "word": "Flamingo",
+      "hint": "Pink"
+    },
+    {
+      "word": "Meerkat",
+      "hint": "Sentinel"
+    },
+    {
+      "word": "Porcupine",
+      "hint": "Quills"
+    },
+    {
+      "word": "Hedgehog",
+      "hint": "Spines"
+    },
+    {
+      "word": "Peacock",
+      "hint": "Feathers"
+    },
+    {
+      "word": "Lemur",
+      "hint": "Madagascar"
+    },
+    {
+      "word": "Manatee",
+      "hint": "Seagrass"
+    },
+    {
+      "word": "Wombat",
+      "hint": "Burrow"
+    },
+    {
+      "word": "Pangolin",
+      "hint": "Armor"
+    },
+    {
+      "word": "Toucan",
+      "hint": "Beak"
+    },
+    {
+      "word": "Capybara",
+      "hint": "Rodent"
+    },
+    {
+      "word": "Alpaca",
+      "hint": "Fleece"
+    },
+    {
+      "word": "Manta ray",
+      "hint": "Wingspan"
+    },
+    {
+      "word": "Komodo dragon",
+      "hint": "Island"
+    },
+    {
+      "word": "Armadillo",
+      "hint": "Plates"
+    },
+    {
+      "word": "Sloth",
+      "hint": "Slow"
+    },
+    {
+      "word": "Hyena",
+      "hint": "Cackle"
+    },
+    {
+      "word": "Walrus",
+      "hint": "Tusks"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Axolotl",
+      "hint": "Regeneration"
+    },
+    {
+      "word": "Okapi",
+      "hint": "Stripes"
+    },
+    {
+      "word": "Narwhal",
+      "hint": "Tusk"
+    },
+    {
+      "word": "Aye-aye",
+      "hint": "Long finger"
+    },
+    {
+      "word": "Saiga",
+      "hint": "Nose"
+    },
+    {
+      "word": "Quokka",
+      "hint": "Smile"
+    },
+    {
+      "word": "Fossa",
+      "hint": "Madagascar"
+    },
+    {
+      "word": "Binturong",
+      "hint": "Popcorn scent"
+    },
+    {
+      "word": "Dugong",
+      "hint": "Seagrass"
+    },
+    {
+      "word": "Markhor",
+      "hint": "Twisted horns"
+    },
+    {
+      "word": "Kakapo",
+      "hint": "Flightless parrot"
+    },
+    {
+      "word": "Shoebill",
+      "hint": "Large bill"
+    },
+    {
+      "word": "Tarsier",
+      "hint": "Huge eyes"
+    },
+    {
+      "word": "Tenrec",
+      "hint": "Spines"
+    },
+    {
+      "word": "Solenodon",
+      "hint": "Venomous bite"
+    },
+    {
+      "word": "Gerenuk",
+      "hint": "Long neck"
+    },
+    {
+      "word": "Potoo",
+      "hint": "Camouflage"
+    },
+    {
+      "word": "Cassowary",
+      "hint": "Helmet"
+    },
+    {
+      "word": "Pika",
+      "hint": "Alpine"
+    },
+    {
+      "word": "Glass frog",
+      "hint": "Transparent skin"
+    }
+  ]
+}

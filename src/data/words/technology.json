@@ -1,0 +1,248 @@
+{
+  "easy": [
+    {
+      "word": "Keyboard",
+      "hint": "Typing"
+    },
+    {
+      "word": "Smartphone",
+      "hint": "Apps"
+    },
+    {
+      "word": "Headphones",
+      "hint": "Music"
+    },
+    {
+      "word": "Laptop",
+      "hint": "Portable"
+    },
+    {
+      "word": "Printer",
+      "hint": "Paper"
+    },
+    {
+      "word": "Camera",
+      "hint": "Lens"
+    },
+    {
+      "word": "Mouse",
+      "hint": "Cursor"
+    },
+    {
+      "word": "Television",
+      "hint": "Remote"
+    },
+    {
+      "word": "Game controller",
+      "hint": "Buttons"
+    },
+    {
+      "word": "Wi-Fi router",
+      "hint": "Signal"
+    },
+    {
+      "word": "USB drive",
+      "hint": "Files"
+    },
+    {
+      "word": "Microphone",
+      "hint": "Voice"
+    },
+    {
+      "word": "Monitor",
+      "hint": "Pixels"
+    },
+    {
+      "word": "Battery",
+      "hint": "Charge"
+    },
+    {
+      "word": "Speaker",
+      "hint": "Sound"
+    },
+    {
+      "word": "Drone",
+      "hint": "Propellers"
+    },
+    {
+      "word": "Smartwatch",
+      "hint": "Wrist"
+    },
+    {
+      "word": "Tablet",
+      "hint": "Touchscreen"
+    },
+    {
+      "word": "Charger",
+      "hint": "Outlet"
+    },
+    {
+      "word": "Webcam",
+      "hint": "Video call"
+    }
+  ],
+  "medium": [
+    {
+      "word": "Microprocessor",
+      "hint": "Calculations"
+    },
+    {
+      "word": "Router",
+      "hint": "Network"
+    },
+    {
+      "word": "Projector",
+      "hint": "Screen"
+    },
+    {
+      "word": "Graphics card",
+      "hint": "Rendering"
+    },
+    {
+      "word": "Motherboard",
+      "hint": "Components"
+    },
+    {
+      "word": "Solid-state drive",
+      "hint": "Flash memory"
+    },
+    {
+      "word": "Mechanical keyboard",
+      "hint": "Switches"
+    },
+    {
+      "word": "3D printer",
+      "hint": "Filament"
+    },
+    {
+      "word": "Fiber optics",
+      "hint": "Light pulses"
+    },
+    {
+      "word": "Satellite dish",
+      "hint": "Reception"
+    },
+    {
+      "word": "Thermal camera",
+      "hint": "Infrared"
+    },
+    {
+      "word": "Barcode scanner",
+      "hint": "Checkout"
+    },
+    {
+      "word": "Biometric scanner",
+      "hint": "Fingerprint"
+    },
+    {
+      "word": "Power supply",
+      "hint": "Voltage"
+    },
+    {
+      "word": "Cooling fan",
+      "hint": "Airflow"
+    },
+    {
+      "word": "Touchpad",
+      "hint": "Gestures"
+    },
+    {
+      "word": "Ethernet switch",
+      "hint": "Ports"
+    },
+    {
+      "word": "VR headset",
+      "hint": "Immersion"
+    },
+    {
+      "word": "E-reader",
+      "hint": "E-ink"
+    },
+    {
+      "word": "NAS device",
+      "hint": "Storage"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Gyroscope",
+      "hint": "Orientation"
+    },
+    {
+      "word": "Oscilloscope",
+      "hint": "Waveforms"
+    },
+    {
+      "word": "Interferometer",
+      "hint": "Waves"
+    },
+    {
+      "word": "Lidar",
+      "hint": "Laser mapping"
+    },
+    {
+      "word": "Photolithography",
+      "hint": "Circuit patterns"
+    },
+    {
+      "word": "Cryptographic hash",
+      "hint": "Fixed-length digest"
+    },
+    {
+      "word": "Field-programmable gate array",
+      "hint": "Reconfigurable logic"
+    },
+    {
+      "word": "Quantum sensor",
+      "hint": "Superposition"
+    },
+    {
+      "word": "Magnetometer",
+      "hint": "Magnetic field"
+    },
+    {
+      "word": "Spectrophotometer",
+      "hint": "Absorbance"
+    },
+    {
+      "word": "Accelerometer",
+      "hint": "Motion sensing"
+    },
+    {
+      "word": "Multiplexer",
+      "hint": "Signal selection"
+    },
+    {
+      "word": "Transceiver",
+      "hint": "Transmit and receive"
+    },
+    {
+      "word": "Semiconductor",
+      "hint": "Doping"
+    },
+    {
+      "word": "Capacitive sensor",
+      "hint": "Electric field"
+    },
+    {
+      "word": "Holographic display",
+      "hint": "Light interference"
+    },
+    {
+      "word": "Neural network accelerator",
+      "hint": "Matrix operations"
+    },
+    {
+      "word": "Phase-locked loop",
+      "hint": "Synchronization"
+    },
+    {
+      "word": "Synthetic aperture radar",
+      "hint": "Radar imaging"
+    },
+    {
+      "word": "Telemetry system",
+      "hint": "Remote measurements"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "easy": [
+    {
+      "word": "Umbrella",
+      "hint": "Rain"
+    },
+    {
+      "word": "Backpack",
+      "hint": "School"
+    },
+    {
+      "word": "Mirror",
+      "hint": "Reflection"
+    },
+    {
+      "word": "Pillow",
+      "hint": "Sleep"
+    },
+    {
+      "word": "Toothbrush",
+      "hint": "Bristles"
+    },
+    {
+      "word": "Flashlight",
+      "hint": "Batteries"
+    },
+    {
+      "word": "Scissors",
+      "hint": "Cutting"
+    },
+    {
+      "word": "Suitcase",
+      "hint": "Travel"
+    },
+    {
+      "word": "Clock",
+      "hint": "Time"
+    },
+    {
+      "word": "Candle",
+      "hint": "Flame"
+    },
+    {
+      "word": "Wallet",
+      "hint": "Coins"
+    },
+    {
+      "word": "Broom",
+      "hint": "Sweeping"
+    },
+    {
+      "word": "Blanket",
+      "hint": "Warmth"
+    },
+    {
+      "word": "Mug",
+      "hint": "Handle"
+    },
+    {
+      "word": "Key",
+      "hint": "Lock"
+    },
+    {
+      "word": "Ladder",
+      "hint": "Rungs"
+    },
+    {
+      "word": "Binoculars",
+      "hint": "Distance"
+    },
+    {
+      "word": "Helmet",
+      "hint": "Protection"
+    },
+    {
+      "word": "Compass",
+      "hint": "Direction"
+    },
+    {
+      "word": "Thermometer",
+      "hint": "Temperature"
+    }
+  ],
+  "medium": [
+    {
+      "word": "Hourglass",
+      "hint": "Sand"
+    },
+    {
+      "word": "Telescope",
+      "hint": "Magnification"
+    },
+    {
+      "word": "Periscope",
+      "hint": "Submarine"
+    },
+    {
+      "word": "Metronome",
+      "hint": "Rhythm"
+    },
+    {
+      "word": "Kaleidoscope",
+      "hint": "Patterns"
+    },
+    {
+      "word": "Abacus",
+      "hint": "Counting"
+    },
+    {
+      "word": "Sextant",
+      "hint": "Navigation"
+    },
+    {
+      "word": "Pendulum",
+      "hint": "Swing"
+    },
+    {
+      "word": "Stethoscope",
+      "hint": "Heartbeat"
+    },
+    {
+      "word": "Pulley",
+      "hint": "Load"
+    },
+    {
+      "word": "Anemometer",
+      "hint": "Wind speed"
+    },
+    {
+      "word": "Barometer",
+      "hint": "Air pressure"
+    },
+    {
+      "word": "Caliper",
+      "hint": "Precision"
+    },
+    {
+      "word": "Gimbal",
+      "hint": "Stabilization"
+    },
+    {
+      "word": "Mortar and pestle",
+      "hint": "Grinding"
+    },
+    {
+      "word": "Sundial",
+      "hint": "Shadow"
+    },
+    {
+      "word": "Tripod",
+      "hint": "Three legs"
+    },
+    {
+      "word": "Loom",
+      "hint": "Weaving"
+    },
+    {
+      "word": "Vise",
+      "hint": "Clamping"
+    },
+    {
+      "word": "Carabiner",
+      "hint": "Clipping"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Astrolabe",
+      "hint": "Celestial navigation"
+    },
+    {
+      "word": "Theodolite",
+      "hint": "Surveying"
+    },
+    {
+      "word": "Orrery",
+      "hint": "Planetary motion"
+    },
+    {
+      "word": "Gyroscope",
+      "hint": "Orientation"
+    },
+    {
+      "word": "Oscilloscope",
+      "hint": "Waveforms"
+    },
+    {
+      "word": "Interferometer",
+      "hint": "Light waves"
+    },
+    {
+      "word": "Spectrometer",
+      "hint": "Wavelengths"
+    },
+    {
+      "word": "Planisphere",
+      "hint": "Star map"
+    },
+    {
+      "word": "Heliograph",
+      "hint": "Sunlight signals"
+    },
+    {
+      "word": "Hydrometer",
+      "hint": "Specific gravity"
+    },
+    {
+      "word": "Galvanometer",
+      "hint": "Electric current"
+    },
+    {
+      "word": "Manometer",
+      "hint": "Fluid pressure"
+    },
+    {
+      "word": "Planimeter",
+      "hint": "Area measurement"
+    },
+    {
+      "word": "Sphygmomanometer",
+      "hint": "Blood pressure"
+    },
+    {
+      "word": "Dynamometer",
+      "hint": "Force"
+    },
+    {
+      "word": "Phonograph",
+      "hint": "Grooves"
+    },
+    {
+      "word": "Centrifuge",
+      "hint": "Rotation"
+    },
+    {
+      "word": "Micrometer",
+      "hint": "Fine measurement"
+    },
+    {
+      "word": "Theodolite",
+      "hint": "Angle measurement"
+    },
+    {
+      "word": "Pantograph",
+      "hint": "Scaled drawing"
+    }
+  ]
+}

@@ -23,12 +23,14 @@ export default function GameSettingsScreen() {
 
   const [mode, setMode] = useState<GameMode>(() => savedSettings?.mode ?? "classic");
   const [impostorCount, setImpostorCount] = useState<number>(() => Math.max(1, Math.min(savedSettings?.impostorCount ?? 1, maxImpostorCount)));
-  const [category, setCategory] = useState<GameCategory>(() => savedSettings?.category ?? "all");
   const [hintMode, setHintMode] = useState<HintMode>(() => savedSettings?.hintMode ?? "none");
-  const [difficulty, setDifficulty] = useState<Difficulty>(() => savedSettings?.difficulty ?? "any");
+  const [categories, setCategories] = useState<GameCategory[]>(() => savedSettings?.categories ?? ["places"]);
+  const [difficulties, setDifficulties] = useState<Difficulty[]>(() => savedSettings?.difficulties ?? ["easy"]);
 
-  const categories: { label: string; value: GameCategory }[] = [
-    { label: "All", value: "all" },
+  const categoryOptions: {
+    label: string;
+    value: GameCategory;
+  }[] = [
     { label: "Places", value: "places" },
     { label: "Food", value: "food" },
     { label: "People", value: "people" },
@@ -49,6 +51,14 @@ export default function GameSettingsScreen() {
     setImpostorCount((currentImpostorCount) => Math.max(currentImpostorCount - 1, 1));
   };
 
+  const toggleCategory = (category: GameCategory) => {
+    setCategories((current) => (current.includes(category) ? current.filter((item) => item !== category) : [...current, category]));
+  };
+
+  const toggleDifficulty = (difficulty: Difficulty) => {
+    setDifficulties((current) => (current.includes(difficulty) ? current.filter((item) => item !== difficulty) : [...current, difficulty]));
+  };
+
   const handleContinue = () => {
     if (players.length < 3) {
       Alert.alert("Not enough players", "You need at least 3 players to start a game.");
@@ -65,12 +75,22 @@ export default function GameSettingsScreen() {
       return;
     }
 
+    if (categories.length === 0) {
+      Alert.alert("Select a category", "Choose at least one category to continue.");
+      return;
+    }
+
+    if (difficulties.length === 0) {
+      Alert.alert("Select a difficulty", "Choose at least one difficulty to continue.");
+      return;
+    }
+
     const settings = {
       mode,
       impostorCount,
-      category,
+      categories,
       hintMode,
-      difficulty,
+      difficulties,
     };
 
     try {
@@ -127,38 +147,37 @@ export default function GameSettingsScreen() {
             </View>
           </SettingSection>
 
-          {/* Category */}
-          <SettingSection title="Category">
+          {/* Categories */}
+          <SettingSection title="Categories">
+            <Text style={styles.helperText}>Choose one or more categories.</Text>
+
             <View style={styles.wrap}>
-              {categories.map((item) => (
-                <OptionButton
-                  key={item.value}
-                  label={item.label}
-                  selected={category === item.value}
-                  onPress={() => {
-                    setCategory(item.value);
-                  }}
-                />
+              {categoryOptions.map((item) => (
+                <OptionButton key={item.value} label={item.label} selected={categories.includes(item.value)} onPress={() => toggleCategory(item.value)} />
               ))}
             </View>
           </SettingSection>
 
           {/* Hint Mode */}
           <SettingSection title="Hint Mode">
+            <Text style={styles.helperText}>Related hints are based on the category you selected.</Text>
             <View style={styles.optionRow}>
               <OptionButton label="None" selected={hintMode === "none"} onPress={() => setHintMode("none")} />
               <OptionButton label="Related" selected={hintMode === "related"} onPress={() => setHintMode("related")} />
             </View>
-            <Text style={styles.helperText}>Related hints are based on the category you selected.</Text>
           </SettingSection>
 
           {/* Difficulty */}
           <SettingSection title="Difficulty">
+            {/* Difficulties */}
+            <Text style={styles.helperText}>Choose one or more difficulty levels.</Text>
+
             <View style={styles.optionRow}>
-              <OptionButton label="Any" selected={difficulty === "any"} onPress={() => setDifficulty("any")} />
-              <OptionButton label="Easy" selected={difficulty === "easy"} onPress={() => setDifficulty("easy")} />
-              <OptionButton label="Medium" selected={difficulty === "medium"} onPress={() => setDifficulty("medium")} />
-              <OptionButton label="Hard" selected={difficulty === "hard"} onPress={() => setDifficulty("hard")} />
+              <OptionButton label="Easy" selected={difficulties.includes("easy")} onPress={() => toggleDifficulty("easy")} />
+
+              <OptionButton label="Medium" selected={difficulties.includes("medium")} onPress={() => toggleDifficulty("medium")} />
+
+              <OptionButton label="Hard" selected={difficulties.includes("hard")} onPress={() => toggleDifficulty("hard")} />
             </View>
           </SettingSection>
         </ScrollView>

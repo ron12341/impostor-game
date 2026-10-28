@@ -1,5 +1,5 @@
 import { WORDS, type WordEntry } from "@/data/words";
-import type { Difficulty, GameCategory, GameSettings, Player, WordDifficulty } from "@/types/game";
+import type { Difficulty, GameCategory, GameSettings, Player } from "@/types/game";
 import { randomItem, randomItems } from "@/utils/random";
 
 export type InitializedPlayer = {
@@ -15,14 +15,8 @@ export type GameRound = {
   players: InitializedPlayer[];
 };
 
-function getAvailableWords(category: GameCategory, difficulty: Difficulty): WordEntry[] {
-  const diff: WordDifficulty = difficulty === "any" ? randomItem<WordDifficulty>(["easy", "medium", "hard"]) : difficulty;
-
-  if (category === "all") {
-    return Object.values(WORDS).flatMap((categoryWords) => categoryWords[diff] ?? []);
-  }
-
-  return WORDS[category]?.[diff] ?? [];
+function getAvailableWords(categories: GameCategory[], difficulties: Difficulty[]): WordEntry[] {
+  return categories.flatMap((category) => difficulties.flatMap((difficulty) => WORDS[category]?.[difficulty] ?? []));
 }
 
 export function initializeGame(players: Player[], settings: GameSettings): GameRound {
@@ -60,10 +54,10 @@ export function initializeGame(players: Player[], settings: GameSettings): GameR
   }
 
   // Get words matching the selected category and difficulty.
-  const availableWords = getAvailableWords(settings.category, settings.difficulty);
+  const availableWords = getAvailableWords(settings.categories, settings.difficulties);
 
   if (availableWords.length === 0) {
-    throw new Error("No words are available for the selected category and difficulty.");
+    throw new Error("No words are available for the selected categories and difficulties.");
   }
 
   // Select the secret word.

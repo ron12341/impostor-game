@@ -1,4 +1,4 @@
-import type { GameCategory, WordDifficulty } from "@/types/game";
+import type { Difficulty, GameCategory } from "@/types/game";
 
 import animals from "./words/animals.json";
 import fantasy from "./words/fantasy.json";
@@ -18,7 +18,7 @@ export type WordEntry = {
 
 type WordCategory = Exclude<GameCategory, "all">;
 
-type WordDatabase = Record<WordCategory, Record<WordDifficulty, WordEntry[]>>;
+type WordDatabase = Record<WordCategory, Record<Difficulty, WordEntry[]>>;
 
 export const WORDS: WordDatabase = {
   places,

@@ -8,7 +8,21 @@ export function randomItem<T>(items: T[]): T {
   return items[index];
 }
 
+export function randomItem<T>(items: T[]): T {
+  if (items.length === 0) {
+    throw new Error("Cannot select a random item from an empty array!");
+  }
+
+  const index = Math.floor(Math.random() * items.length);
+
+  return items[index];
+}
+
 export function randomItems<T>(items: T[], count: number): T[] {
+  if (!Number.isInteger(count) || count < 0) {
+    throw new Error("Count must be a non-negative integer.");
+  }
+
   if (count > items.length) {
     throw new Error(`Cannot select ${count} items from an array with ${items.length} items!`);
   }

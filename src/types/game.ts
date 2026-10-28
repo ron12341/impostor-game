@@ -9,7 +9,9 @@ export type GameCategory = "all" | "places" | "food" | "people" | "animals" | "o
 
 export type HintMode = "none" | "related";
 
-export type Difficulty = "easy" | "medium" | "hard";
+export type WordDifficulty = "easy" | "medium" | "hard";
+
+export type Difficulty = "any" | WordDifficulty;
 
 export type GameSettings = {
   mode: GameMode;

@@ -1,5 +1,5 @@
 import { WORDS, type WordEntry } from "@/data/words";
-import type { Difficulty, GameCategory, GameSettings, Player } from "@/types/game";
+import type { Difficulty, GameCategory, GameSettings, Player, WordDifficulty } from "@/types/game";
 import { randomItem, randomItems } from "@/utils/random";
 
 export type InitializedPlayer = {
@@ -16,11 +16,13 @@ export type GameRound = {
 };
 
 function getAvailableWords(category: GameCategory, difficulty: Difficulty): WordEntry[] {
+  const diff: WordDifficulty = difficulty === "any" ? randomItem<WordDifficulty>(["easy", "medium", "hard"]) : difficulty;
+
   if (category === "all") {
-    return Object.values(WORDS).flatMap((categoryWords) => categoryWords[difficulty] ?? []);
+    return Object.values(WORDS).flatMap((categoryWords) => categoryWords[diff] ?? []);
   }
 
-  return WORDS[category]?.[difficulty] ?? [];
+  return WORDS[category]?.[diff] ?? [];
 }
 
 export function initializeGame(players: Player[], settings: GameSettings): GameRound {

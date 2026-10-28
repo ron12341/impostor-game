@@ -25,7 +25,7 @@ export default function GameSettingsScreen() {
   const [impostorCount, setImpostorCount] = useState<number>(() => Math.max(1, Math.min(savedSettings?.impostorCount ?? 1, maxImpostorCount)));
   const [category, setCategory] = useState<GameCategory>(() => savedSettings?.category ?? "all");
   const [hintMode, setHintMode] = useState<HintMode>(() => savedSettings?.hintMode ?? "none");
-  const [difficulty, setDifficulty] = useState<Difficulty>(() => savedSettings?.difficulty ?? "easy");
+  const [difficulty, setDifficulty] = useState<Difficulty>(() => savedSettings?.difficulty ?? "any");
 
   const categories: { label: string; value: GameCategory }[] = [
     { label: "All", value: "all" },
@@ -151,6 +151,7 @@ export default function GameSettingsScreen() {
           {/* Difficulty */}
           <SettingSection title="Difficulty">
             <View style={styles.optionRow}>
+              <OptionButton label="Any" selected={difficulty === "any"} onPress={() => setDifficulty("any")} />
               <OptionButton label="Easy" selected={difficulty === "easy"} onPress={() => setDifficulty("easy")} />
               <OptionButton label="Medium" selected={difficulty === "medium"} onPress={() => setDifficulty("medium")} />
               <OptionButton label="Hard" selected={difficulty === "hard"} onPress={() => setDifficulty("hard")} />

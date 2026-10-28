@@ -73,7 +73,7 @@ export default function GameSetupScreen() {
   return (
     <Screen>
       <View style={styles.navigation}>
-        <Pressable accessibilityRole="button" accessibilityLabel="Go back" onPress={() => router.back()} style={styles.backButton}>
+        <Pressable accessibilityRole="button" accessibilityLabel="Go back" onPress={() => router.replace("/")} style={styles.backButton}>
           <Text style={styles.backButtonText}>←</Text>
         </Pressable>
       </View>

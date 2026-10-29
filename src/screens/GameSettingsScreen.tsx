@@ -112,12 +112,11 @@ export default function GameSettingsScreen() {
     <Screen padded={false}>
       <View style={styles.container}>
         <View style={styles.header}>
-          <Pressable accessibilityRole="button" accessibilityLabel="Go back" onPress={() => router.back()}>
-            <Text style={styles.backButton}>←</Text>
+          <Pressable accessibilityRole="button" accessibilityLabel="Go back" style={styles.backButton} onPress={() => router.back()}>
+            <Text style={styles.backButtonText}>←</Text>
           </Pressable>
 
           <View>
-            <Text style={styles.eyebrow}>NEW GAME</Text>
             <Text style={styles.title}>Settings</Text>
           </View>
         </View>
@@ -245,16 +244,20 @@ const styles = StyleSheet.create({
     gap: 14,
   },
   backButton: {
-    color: COLORS.text,
-    fontSize: 40,
-    fontWeight: "300",
-    lineHeight: 40,
+    width: 42,
+    height: 42,
+    borderRadius: 13,
+    backgroundColor: COLORS.surface,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+    alignItems: "center",
+    justifyContent: "center",
   },
-  eyebrow: {
-    color: COLORS.primary,
-    fontSize: 11,
-    fontWeight: "800",
-    letterSpacing: 2,
+  backButtonText: {
+    color: COLORS.text,
+    fontSize: 32,
+    lineHeight: 35,
+    marginTop: -3,
   },
   title: {
     color: COLORS.text,

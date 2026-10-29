@@ -9,12 +9,11 @@ export default function HomeScreen() {
   const router = useRouter();
 
   const handleStartGame = () => {
-    console.log("Start Game Pressed");
     router.push("/game/setup");
   };
 
-  const handleSettings = () => {
-    console.log("Settings Pressed");
+  const handleHowToPlay = () => {
+    router.push("/how-to-play");
   };
 
   return (
@@ -29,7 +28,7 @@ export default function HomeScreen() {
         <View style={styles.actions}>
           <AppButton title="START GAME" onPress={handleStartGame} />
 
-          <AppButton title="SETTINGS" variant="secondary" onPress={handleSettings} />
+          <AppButton title="HOW TO PLAY" variant="secondary" onPress={handleHowToPlay} />
         </View>
 
         <View style={styles.footer}>

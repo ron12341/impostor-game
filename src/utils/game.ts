@@ -43,14 +43,10 @@ export function initializeGame(players: Player[], settings: GameSettings): GameR
 
   // Validate impostor count.
   const maxImpostorCount = Math.floor((players.length - 1) / 2);
+  const minImpostorCount = settings.mode === "chaos" ? 0 : 1;
 
-  if (!Number.isInteger(settings.impostorCount) || settings.impostorCount < 1 || settings.impostorCount > maxImpostorCount) {
-    throw new Error(`Choose between 1 and ${maxImpostorCount} impostors.`);
-  }
-
-  // Chaos mode has not been implemented yet.
-  if (settings.mode !== "classic") {
-    throw new Error("Chaos mode is not available yet. Please select Classic mode.");
+  if (!Number.isInteger(settings.impostorCount) || settings.impostorCount < minImpostorCount || settings.impostorCount > maxImpostorCount) {
+    throw new Error(`Choose between ${minImpostorCount} and ${maxImpostorCount} impostors.`);
   }
 
   // Get words matching the selected category and difficulty.

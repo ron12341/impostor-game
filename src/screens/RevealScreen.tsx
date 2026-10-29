@@ -186,6 +186,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "900",
     marginTop: 8,
+    textAlign: "center",
   },
   noHint: {
     color: COLORS.textSecondary,

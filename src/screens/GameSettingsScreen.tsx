@@ -17,11 +17,14 @@ export default function GameSettingsScreen() {
   const setSettings = useGameStore((state) => state.setSettings);
   const setRound = useGameStore((state) => state.setRound);
 
+  const [mode, setMode] = useState<GameMode>(() => savedSettings?.mode ?? "classic");
+
+  // Calculate Min and Max impostorCount
   const maxImpostorCount = useMemo(() => {
     return Math.max(1, Math.floor((players.length - 1) / 2));
   }, [players.length]);
+  const minImpostorCount = mode === "classic" ? 1 : 0;
 
-  const [mode, setMode] = useState<GameMode>(() => savedSettings?.mode ?? "classic");
   const [impostorCount, setImpostorCount] = useState<number>(() => Math.max(1, Math.min(savedSettings?.impostorCount ?? 1, maxImpostorCount)));
   const [hintMode, setHintMode] = useState<HintMode>(() => savedSettings?.hintMode ?? "none");
   const [categories, setCategories] = useState<GameCategory[]>(() => savedSettings?.categories ?? ["places"]);
@@ -70,11 +73,6 @@ export default function GameSettingsScreen() {
       return;
     }
 
-    if (mode === "chaos") {
-      Alert.alert("Coming soon", "Chaos mode is not implemented yet. Please select Classic mode.");
-      return;
-    }
-
     if (categories.length === 0) {
       Alert.alert("Select a category", "Choose at least one category to continue.");
       return;
@@ -85,9 +83,15 @@ export default function GameSettingsScreen() {
       return;
     }
 
+    let finalImpostorCount = impostorCount;
+
+    if (mode === "chaos") {
+      finalImpostorCount = Math.floor(Math.random() * (maxImpostorCount + 1));
+    }
+
     const settings = {
       mode,
-      impostorCount,
+      impostorCount: finalImpostorCount,
       categories,
       hintMode,
       difficulties,
@@ -129,22 +133,32 @@ export default function GameSettingsScreen() {
 
           {/* Impostor Count */}
           <SettingSection title="Impostor Count">
-            <Text style={styles.helperText}>Maximum {maxImpostorCount} impostors</Text>
-            <View style={styles.counter}>
-              <Pressable style={styles.counterButton} onPress={handleDecreaseImpostorCount} disabled={impostorCount <= 1}>
-                <Text style={styles.counterButtonText}>−</Text>
-              </Pressable>
+            {mode === "classic" ? (
+              <>
+                <Text style={styles.helperText}>Maximum {maxImpostorCount} impostors</Text>
+                <View style={styles.counter}>
+                  <Pressable style={styles.counterButton} onPress={handleDecreaseImpostorCount} disabled={impostorCount <= 1}>
+                    <Text style={styles.counterButtonText}>−</Text>
+                  </Pressable>
 
-              <View style={styles.counterValue}>
-                <Text style={styles.counterNumber}>{impostorCount}</Text>
+                  <View style={styles.counterValue}>
+                    <Text style={styles.counterNumber}>{impostorCount}</Text>
 
-                <Text style={styles.counterLabel}>{impostorCount === 1 ? "IMPOSTOR" : "IMPOSTORS"}</Text>
-              </View>
+                    <Text style={styles.counterLabel}>{impostorCount === 1 ? "IMPOSTOR" : "IMPOSTORS"}</Text>
+                  </View>
 
-              <Pressable style={styles.counterButton} onPress={handleIncreaseImpostorCount} disabled={impostorCount >= maxImpostorCount}>
-                <Text style={styles.counterButtonText}>+</Text>
-              </Pressable>
-            </View>
+                  <Pressable style={styles.counterButton} onPress={handleIncreaseImpostorCount} disabled={impostorCount >= maxImpostorCount}>
+                    <Text style={styles.counterButtonText}>+</Text>
+                  </Pressable>
+                </View>
+              </>
+            ) : (
+              <>
+                <Text style={styles.helperText}>
+                  The number of impostors will be randomly chosen. Between {minImpostorCount} and {maxImpostorCount}.
+                </Text>
+              </>
+            )}
           </SettingSection>
 
           {/* Categories */}

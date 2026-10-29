@@ -34,7 +34,14 @@ export default function GameSetupScreen() {
       { id: 3, name: "" },
     ];
   });
-  const [nextPlayerId, setNextPlayerId] = useState(4);
+  const [nextPlayerId, setNextPlayerId] = useState(() => {
+    if (savedPlayers.length > 0) {
+      return savedPlayers[savedPlayers.length - 1].id + 1;
+    }
+
+    return 4;
+  });
+
   const normalizedNames = players.map((player) => player.name.trim().toLowerCase());
   const hasEmptyNames = players.some((player) => player.name.trim().length === 0);
   const hasDuplicateNames = new Set(normalizedNames).size !== normalizedNames.length;

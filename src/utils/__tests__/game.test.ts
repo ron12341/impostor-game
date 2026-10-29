@@ -11,9 +11,9 @@ const players: Player[] = [
 const baseSettings: GameSettings = {
   mode: "classic",
   impostorCount: 1,
-  category: "all",
+  categories: ["places", "food"],
   hintMode: "none",
-  difficulty: "easy",
+  difficulties: ["easy", "medium"],
 };
 
 describe("initializeGame", () => {
@@ -88,6 +88,36 @@ describe("initializeGame", () => {
       expect(player.hint).toBe(round.word.hint);
       expect(player.hint).not.toBeNull();
     }
+  });
+
+  it("supports multiple selected categories and difficulties", () => {
+    const round = initializeGame(players, {
+      ...baseSettings,
+      categories: ["places", "food"],
+      difficulties: ["easy", "medium"],
+    });
+
+    expect(round.word).toBeDefined();
+    expect(round.word.word).toBeTruthy();
+    expect(round.word.hint).toBeTruthy();
+  });
+
+  it("rejects an empty category selection", () => {
+    expect(() =>
+      initializeGame(players, {
+        ...baseSettings,
+        categories: [],
+      }),
+    ).toThrow();
+  });
+
+  it("rejects an empty difficulty selection", () => {
+    expect(() =>
+      initializeGame(players, {
+        ...baseSettings,
+        difficulties: [],
+      }),
+    ).toThrow();
   });
 
   it("rejects fewer than three players", () => {

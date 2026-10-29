@@ -236,7 +236,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-
   header: {
     flexDirection: "row",
     alignItems: "center",
@@ -245,56 +244,47 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     gap: 14,
   },
-
   backButton: {
     color: COLORS.text,
     fontSize: 40,
     fontWeight: "300",
     lineHeight: 40,
   },
-
   eyebrow: {
     color: COLORS.primary,
     fontSize: 11,
     fontWeight: "800",
     letterSpacing: 2,
   },
-
   title: {
     color: COLORS.text,
     fontSize: 28,
     fontWeight: "900",
     marginTop: 3,
   },
-
   content: {
     paddingHorizontal: 24,
     paddingBottom: 24,
     gap: 28,
   },
-
   section: {
     gap: 12,
   },
-
   sectionTitle: {
     color: COLORS.textMuted,
     fontSize: 11,
     fontWeight: "800",
     letterSpacing: 2,
   },
-
   optionRow: {
     flexDirection: "row",
     gap: 10,
   },
-
   wrap: {
     flexDirection: "row",
     flexWrap: "wrap",
     gap: 10,
   },
-
   option: {
     minHeight: 48,
     paddingHorizontal: 16,
@@ -307,35 +297,29 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     gap: 8,
   },
-
   optionSelected: {
     borderColor: COLORS.primary,
     backgroundColor: COLORS.primaryDark,
   },
-
   optionText: {
     color: COLORS.textSecondary,
     fontSize: 14,
     fontWeight: "700",
   },
-
   optionTextSelected: {
     color: COLORS.text,
   },
-
   checkmark: {
     color: COLORS.text,
     fontSize: 14,
     fontWeight: "900",
   },
-
   counter: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
     gap: 28,
   },
-
   counterButton: {
     width: 52,
     height: 52,
@@ -346,24 +330,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-
   counterButtonText: {
     color: COLORS.text,
     fontSize: 28,
     fontWeight: "400",
   },
-
   counterValue: {
     alignItems: "center",
     minWidth: 80,
   },
-
   counterNumber: {
     color: COLORS.text,
     fontSize: 32,
     fontWeight: "900",
   },
-
   counterLabel: {
     color: COLORS.textMuted,
     fontSize: 9,
@@ -371,13 +351,11 @@ const styles = StyleSheet.create({
     letterSpacing: 1.5,
     marginTop: 2,
   },
-
   helperText: {
     color: COLORS.textMuted,
     fontSize: 11,
     textAlign: "center",
   },
-
   footer: {
     paddingHorizontal: 24,
     paddingTop: 12,

@@ -44,19 +44,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "space-between",
   },
-
   header: {
     alignItems: "center",
     marginTop: 80,
   },
-
   title: {
     color: COLORS.text,
     fontSize: 42,
     fontWeight: "900",
     letterSpacing: 5,
   },
-
   subtitle: {
     color: COLORS.textMuted,
     fontSize: 12,
@@ -64,17 +61,14 @@ const styles = StyleSheet.create({
     letterSpacing: 3,
     marginTop: 10,
   },
-
   actions: {
     width: "100%",
     gap: 14,
   },
-
   footer: {
     alignItems: "center",
     marginBottom: 24,
   },
-
   footerText: {
     color: COLORS.textMuted,
     fontSize: 10,

@@ -119,7 +119,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-
   header: {
     flexDirection: "row",
     alignItems: "center",
@@ -127,7 +126,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     marginTop: 12,
   },
-
   backButton: {
     width: 42,
     height: 42,
@@ -138,35 +136,29 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-
   backButtonText: {
     color: COLORS.text,
     fontSize: 32,
     lineHeight: 35,
     marginTop: -3,
   },
-
   eyebrow: {
     color: COLORS.textMuted,
     fontSize: 11,
     fontWeight: "700",
     letterSpacing: 2,
   },
-
   scrollView: {
     flex: 1,
   },
-
   scrollContent: {
     paddingBottom: 24,
   },
-
   intro: {
     alignItems: "center",
     marginBottom: 30,
     marginTop: 8,
   },
-
   title: {
     color: COLORS.text,
     fontSize: 30,
@@ -174,7 +166,6 @@ const styles = StyleSheet.create({
     letterSpacing: 3,
     textAlign: "center",
   },
-
   subtitle: {
     color: COLORS.textMuted,
     fontSize: 13,
@@ -182,17 +173,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginTop: 10,
   },
-
   rules: {
     gap: 24,
   },
-
   ruleRow: {
     flexDirection: "row",
     alignItems: "flex-start",
     gap: 14,
   },
-
   iconContainer: {
     width: 48,
     height: 48,
@@ -201,41 +189,34 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-
   ruleIcon: {
     fontSize: 23,
   },
-
   ruleContent: {
     flex: 1,
   },
-
   ruleHeading: {
     flexDirection: "row",
     alignItems: "center",
     gap: 9,
     marginBottom: 7,
   },
-
   ruleNumber: {
     color: COLORS.primary,
     fontSize: 12,
     fontWeight: "800",
   },
-
   ruleTitle: {
     color: COLORS.text,
     fontSize: 16,
     fontWeight: "800",
     flexShrink: 1,
   },
-
   ruleDescription: {
     color: COLORS.textMuted,
     fontSize: 13,
     lineHeight: 21,
   },
-
   modesCard: {
     marginTop: 30,
     padding: 18,
@@ -245,36 +226,30 @@ const styles = StyleSheet.create({
     borderColor: COLORS.border,
     gap: 16,
   },
-
   sectionTitle: {
     color: COLORS.text,
     fontSize: 13,
     fontWeight: "800",
     letterSpacing: 1.5,
   },
-
   modeItem: {
     gap: 6,
   },
-
   modeTitle: {
     color: COLORS.primary,
     fontSize: 13,
     fontWeight: "800",
     letterSpacing: 1,
   },
-
   modeDescription: {
     color: COLORS.textMuted,
     fontSize: 13,
     lineHeight: 20,
   },
-
   modeDivider: {
     height: 1,
     backgroundColor: COLORS.border,
   },
-
   tipCard: {
     marginTop: 18,
     padding: 18,
@@ -283,20 +258,17 @@ const styles = StyleSheet.create({
     borderColor: COLORS.border,
     gap: 8,
   },
-
   tipTitle: {
     color: COLORS.primary,
     fontSize: 13,
     fontWeight: "800",
     letterSpacing: 1,
   },
-
   tipDescription: {
     color: COLORS.textMuted,
     fontSize: 13,
     lineHeight: 21,
   },
-
   footer: {
     paddingTop: 14,
     paddingBottom: 8,

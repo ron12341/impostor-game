@@ -158,7 +158,6 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     paddingBottom: 28,
   },
-
   backButton: {
     width: 42,
     height: 42,
@@ -169,18 +168,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-
   backButtonText: {
     color: COLORS.text,
     fontSize: 32,
     lineHeight: 35,
     marginTop: -3,
   },
-
   headerText: {
     paddingBottom: 12,
   },
-
   eyebrow: {
     color: COLORS.primary,
     fontSize: 11,
@@ -188,49 +184,41 @@ const styles = StyleSheet.create({
     letterSpacing: 2,
     marginBottom: 8,
   },
-
   title: {
     color: COLORS.text,
     fontSize: 28,
     fontWeight: "800",
   },
-
   subtitle: {
     color: COLORS.textMuted,
     fontSize: 13,
     marginTop: 6,
     lineHeight: 19,
   },
-
   countContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: 12,
   },
-
   countLabel: {
     color: COLORS.textMuted,
     fontSize: 11,
     fontWeight: "800",
     letterSpacing: 2,
   },
-
   countValue: {
     color: COLORS.textSecondary,
     fontSize: 13,
     fontWeight: "700",
   },
-
   playerList: {
     flex: 1,
   },
-
   playerListContent: {
     gap: 10,
     paddingBottom: 20,
   },
-
   playerRow: {
     minHeight: 62,
     flexDirection: "row",
@@ -242,7 +230,6 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     paddingHorizontal: 12,
   },
-
   playerNumber: {
     width: 34,
     height: 34,
@@ -251,13 +238,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-
   playerNumberText: {
     color: COLORS.primary,
     fontSize: 12,
     fontWeight: "800",
   },
-
   nameInput: {
     flex: 1,
     minWidth: 0,
@@ -265,7 +250,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     paddingVertical: 12,
   },
-
   removeButton: {
     width: 34,
     height: 34,
@@ -274,13 +258,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: COLORS.surfaceLight,
   },
-
   removeButtonText: {
     color: COLORS.textMuted,
     fontSize: 25,
     lineHeight: 28,
   },
-
   addButton: {
     minHeight: 58,
     flexDirection: "row",
@@ -292,7 +274,6 @@ const styles = StyleSheet.create({
     borderStyle: "dashed",
     borderRadius: 14,
   },
-
   plusIcon: {
     width: 34,
     height: 34,
@@ -301,45 +282,37 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: COLORS.surfaceLight,
   },
-
   plusText: {
     color: COLORS.primary,
     fontSize: 24,
     lineHeight: 27,
   },
-
   addButtonText: {
     flex: 1,
     color: COLORS.textSecondary,
     fontSize: 14,
     fontWeight: "700",
   },
-
   addButtonHint: {
     color: COLORS.textMuted,
     fontSize: 10,
   },
-
   disabledButton: {
     opacity: 0.4,
   },
-
   validationText: {
     color: "#F87171",
     fontSize: 12,
     marginTop: 2,
   },
-
   hiddenValidationText: {
     display: "none",
   },
-
   footer: {
     paddingTop: 14,
     paddingBottom: 12,
     gap: 12,
   },
-
   footerHint: {
     color: COLORS.textMuted,
     textAlign: "center",

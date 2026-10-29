@@ -1,4 +1,5 @@
 import { useRouter } from "expo-router";
+import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 import AppButton from "@/components/ui/AppButton";
@@ -9,6 +10,17 @@ import { useGameStore } from "@/store/gameStore";
 export default function DiscussionScreen() {
   const router = useRouter();
   const round = useGameStore((state) => state.round);
+
+  const [startingPlayer] = useState(() => {
+    if (!round || round.players.length === 0) {
+      return null;
+    }
+
+    const randomIndex = Math.floor(Math.random() * round.players.length);
+
+    return round.players[randomIndex];
+  });
+
   const handleNext = () => {
     router.push("/game/results");
   };
@@ -44,9 +56,13 @@ export default function DiscussionScreen() {
         <View style={styles.discussionCard}>
           <Text style={styles.discussionIcon}>💬</Text>
 
-          <Text style={styles.discussionTitle}>Discuss among yourselves</Text>
+          <Text style={styles.discussionTitle}>Who starts?</Text>
 
-          <Text style={styles.discussionDescription}>Take your time. When everyone is ready, find out the truth.</Text>
+          <Text style={styles.startingPlayer}>{startingPlayer?.name ?? "No player selected"}</Text>
+
+          <Text style={styles.discussionDescription}>
+            {startingPlayer?.name ? `${startingPlayer.name} gives the first word. Continue clockwise or counterclockwise around the group.` : "Unable to select a starting player."}
+          </Text>
         </View>
       </View>
 
@@ -143,6 +159,13 @@ const styles = StyleSheet.create({
     color: COLORS.text,
     fontSize: 18,
     fontWeight: "800",
+    textAlign: "center",
+  },
+  startingPlayer: {
+    marginTop: 16,
+    fontSize: 28,
+    fontWeight: "800",
+    color: COLORS.primary,
     textAlign: "center",
   },
   discussionDescription: {

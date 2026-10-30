@@ -6,6 +6,16 @@ No internet connection or backend is required — the entire game runs locally o
 
 ---
 
+## 📥 Download
+
+**[⬇️ Download Impostor Game for Android](https://github.com/ron12341/impostor-game/releases/latest)**
+
+Download the latest APK from GitHub Releases and install it on your Android device.
+
+> Note: Android may display a security warning when installing apps outside Google Play.
+
+---
+
 ## Features
 
 - **Pass-the-phone gameplay** — Players privately reveal their roles and secret words on a shared device.

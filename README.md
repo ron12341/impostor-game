@@ -27,19 +27,11 @@ No internet connection or backend is required — the entire game runs locally o
 
 ## Screenshots
 
-> Screenshots coming soon.
-
-<!--
-Add screenshots here once they are ready.
-
-Example:
-
 ![Home Screen](assets/screenshots/home.png)
 ![Game Setup](assets/screenshots/setup.png)
 ![Role Reveal](assets/screenshots/reveal.png)
 ![Discussion](assets/screenshots/discussion.png)
 ![Results](assets/screenshots/results.png)
--->
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "impostor-game",
+    "name": "Impostor Game",
     "slug": "impostor-game",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ron12341.impostorgame"
     },
     "web": {
       "output": "server",
@@ -32,11 +33,23 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "5e079187-aa85-4a6c-a302-f4c15b4ea81a"
+      }
     }
   }
 }

@@ -302,7 +302,7 @@ const styles = StyleSheet.create({
   },
   optionSelected: {
     borderColor: COLORS.primary,
-    backgroundColor: COLORS.primaryDark,
+    backgroundColor: COLORS.primarySoft,
   },
   optionText: {
     color: COLORS.textSecondary,

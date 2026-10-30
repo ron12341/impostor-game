@@ -27,11 +27,44 @@ No internet connection or backend is required — the entire game runs locally o
 
 ## Screenshots
 
-![Home Screen](assets/screenshots/home.png)
-![Game Setup](assets/screenshots/setup.png)
-![Role Reveal](assets/screenshots/reveal.png)
-![Discussion](assets/screenshots/discussion.png)
-![Results](assets/screenshots/results.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/screenshots/home.png" width="250" alt="Home Screen" />
+        <br />
+        <strong>Home</strong>
+      </td>
+      <td align="center">
+        <img src="assets/screenshots/setup.png" width="250" alt="Game Setup" />
+        <br />
+        <strong>Game Setup</strong>
+      </td>
+      <td align="center">
+        <img src="assets/screenshots/settings.png" width="250" alt="Game Settings" />
+        <br />
+        <strong>Game Setup</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="assets/screenshots/reveal.png" width="250" alt="Role Reveal" />
+        <br />
+        <strong>Role Reveal</strong>
+      </td>
+      <td align="center">
+        <img src="assets/screenshots/discussion.png" width="250" alt="Discussion" />
+        <br />
+        <strong>Discussion</strong>
+      </td>
+      <td align="center" colspan="2">
+        <img src="assets/screenshots/result.png" width="250" alt="Results" />
+        <br />
+        <strong>Results</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
